@@ -1,6 +1,7 @@
 """testing script for chaincode.py
 """
 from numpy import transpose, matmul
+from numpy.linalg import matrix_rank
 import chaincode as chco
 import hypergraphproduct as hp
 
@@ -38,5 +39,6 @@ CCX, CCZ = chco.chaincode(POSETHP, 1, 1)
 FLAGSHP = POSETHP.get_flags()
 APSHP = POSETHP.get_all_pinned_sets(1)
 print(CCX.shape)
+print(matrix_rank(CCX))
 CCCHECKS, CCQUBITS = CCX.shape
 print(sum(sum(abs(matmul(CCX, transpose(CCZ)) % 2))))
