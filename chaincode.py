@@ -11,7 +11,7 @@ class GrPoset:
 
     def __init__(self, transitions, iscomplete):
         self.iscomplete = iscomplete
-        self.length = np.size(transitions)+1
+        self.length = len(transitions)+1
         self.transitions = [np.array(transitions[j], dtype='int') for j in range(self.length-1)]
         self.levelsizes = [np.size(transitions[j], 0) for j in range(self.length-1)] \
                           + [np.size(transitions[self.length-2], 1)]
@@ -97,7 +97,7 @@ def projection(flag, typ):
 def pinned_set(flags, typ, pins):
     """get the pinned set of type typ with pins
     """
-    assert np.size(typ) == np.size(pins)
+    assert len(typ) == len(pins)
     return [f for f in flags if projection(f, typ) == pins]
 
 
@@ -111,9 +111,9 @@ def chaincode(poset, xind, zind):
     flags = poset.get_flags()
     xpsets = poset.get_all_pinned_sets(xind)
     zpsets = poset.get_all_pinned_sets(zind)
-    nqubit = np.size(flags)
-    nxchecks = np.size(xpsets)
-    nzchecks = np.size(zpsets)
+    nqubit = len(flags)
+    nxchecks = len(xpsets)
+    nzchecks = len(zpsets)
     matx = np.zeros([nxchecks, nqubit], dtype='int')
     matz = np.zeros([nzchecks, nqubit], dtype='int')
     for checkindex, pset in enumerate(xpsets):
