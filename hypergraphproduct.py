@@ -30,9 +30,10 @@ def hypergraphproduct(hmat1, hmat2):
     return (hmatx, hmatz)
 
 
-def randomhypergraphproduct(checks, bits, weights):
+def randomhypergraphproduct(checks, bits, weights, seed=None):
     """create a random quantum code
     from two random classical codes
     """
+    rd.seed(seed)
     return hypergraphproduct(randomclassco(checks, bits, weights),
                              randomclassco(checks, bits, weights))
