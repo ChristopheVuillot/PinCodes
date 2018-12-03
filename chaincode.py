@@ -17,6 +17,7 @@ class GrPoset:
                           + [np.size(transitions[self.length-2], 1)]
         self.__flags__ = None
         self.__all_pinned_sets__ = [None for j in range(self.length)]
+        self.__boundary_element__ = [False for j in range(self.length)]
 
 
     def neighbours_down(self, level, elem):
@@ -41,15 +42,18 @@ class GrPoset:
             if not sum(abs(sumall0)) == 0:
                 self.transitions[0] = np.vstack([self.transitions[0], sumall0])
                 self.levelsizes[0] += 1
+                self.__boundary_element__[0] = True
             last = self.length - 2
             sumalllast = np.sum(self.transitions[last], axis=1) % 2
             if not sum(abs(sumalllast)) == 0:
                 self.transitions[last] = np.transpose(np.vstack([np.transpose(self.transitions[last]), sumalllast]))
-                self.levelsizes[last] += 1
+                self.levelsizes[last + 1] += 1
+                self.__boundary_element__[last + 1] = True
             self.transitions = [np.ones([1, self.levelsizes[0]], dtype='int')] \
                                + self.transitions \
                                + [np.ones([self.levelsizes[last], 1], dtype='int')]
             self.levelsizes = [1] + self.levelsizes + [1]
+            self.__boundary_element__ = [True] + self.__boundary_element__ + [True]
             self.length += 2
             self.iscomplete = True
             self.__all_pinned_sets__ = [None for j in range(self.length)]
@@ -79,8 +83,9 @@ class GrPoset:
             types = combinations(range(1, self.length-1), numberpins)
             pinned_sets = []
             for typ in types:
-                pinss = product(*[list(range(self.levelsizes[typ[i]])) for i in range(numberpins)])
+                pinss = product(*[list(range(self.levelsizes[typ[i]] - self.__boundary_element__[typ[i]])) for i in range(numberpins)])
                 for pins in pinss:
+                    print(pins)
                     pset = pinned_set(self.get_flags(), list(typ), list(pins))
                     if not pset == []:
                         pinned_sets.append(pset)
