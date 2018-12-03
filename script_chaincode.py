@@ -30,7 +30,7 @@ import hypergraphproduct as hp
 # MX, MZ = chco.chaincode(POSET, 1, 0)
 # print(matmul(MX, transpose(MZ)) % 2)
 
-HPMX, HPMZ = hp.randomhypergraphproduct(10, 12, 4)
+HPMX, HPMZ = hp.randomhypergraphproduct(2, 3, 2)
 CHECKSX, QUBITS = HPMX.shape
 CHECKSZ, _ = HPMZ.shape
 POSETHP = chco.GrPoset([HPMX, transpose(HPMZ)], iscomplete=False)
@@ -42,3 +42,8 @@ print(CCX.shape)
 print(matrix_rank(CCX))
 CCCHECKS, CCQUBITS = CCX.shape
 print(sum(sum(abs(matmul(CCX, transpose(CCZ)) % 2))))
+for flag in FLAGSHP:
+    print(flag)
+print('\n')
+for pinset in APSHP:
+    print(pinset)
