@@ -85,7 +85,6 @@ class GrPoset:
             for typ in types:
                 pinss = product(*[list(range(self.levelsizes[typ[i]] - self.__boundary_element__[typ[i]])) for i in range(numberpins)])
                 for pins in pinss:
-                    print(pins)
                     pset = pinned_set(self.get_flags(), list(typ), list(pins))
                     if not pset == []:
                         pinned_sets.append(pset)
