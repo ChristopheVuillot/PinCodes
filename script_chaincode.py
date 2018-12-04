@@ -1,7 +1,7 @@
 """testing script for chaincode.py
 """
-from numpy import transpose, matmul
-from numpy.linalg import matrix_rank
+from numpy import transpose, matmul, transpose
+# from numpy.linalg import matrix_rank
 import chaincode as chco
 import hypergraphproduct as hp
 
@@ -30,20 +30,32 @@ import hypergraphproduct as hp
 # MX, MZ = chco.chaincode(POSET, 1, 0)
 # print(matmul(MX, transpose(MZ)) % 2)
 
-HPMX, HPMZ = hp.randomhypergraphproduct(2, 3, 2, seed=47)
-CHECKSX, QUBITS = HPMX.shape
-CHECKSZ, _ = HPMZ.shape
-POSETHP = chco.GrPoset([HPMX, transpose(HPMZ)], iscomplete=False)
+TRANSITIONS = hp.randomhypergraphproductlist(12, 13, 2, 2, seed=47)
+POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
+# HPMX, HPMZ = hp.randomhypergraphproduct(2, 3, 2, seed=47)
+# CHECKSX, QUBITS = HPMX.shape
+# CHECKSZ, _ = HPMZ.shape
+# POSETHP = chco.GrPoset([HPMX, transpose(HPMZ)], iscomplete=False)
 
 CCX, CCZ = chco.chaincode(POSETHP, 1, 1)
 print(CCX.shape)
 FLAGSHP = POSETHP.get_flags()
 APSHP = POSETHP.get_all_pinned_sets(1)
-print(matrix_rank(CCX))
+# print(matrix_rank(CCX))
 CCCHECKS, CCQUBITS = CCX.shape
 print(sum(sum(abs(matmul(CCX, transpose(CCZ)) % 2))))
-for flag in FLAGSHP:
-    print(flag)
-print('\n')
-for pinset in APSHP:
-    print(pinset)
+COUNTUP = 0
+COUNTDOWN = 0
+for j in range(1, POSETHP.length-1):
+    for k in range(POSETHP.levelsizes[j]):
+        if not POSETHP.neighbours_down(j, k):
+            COUNTDOWN += 1
+        if not POSETHP.neighbours_up(j, k):
+            COUNTUP += 1
+print(COUNTDOWN)
+print(COUNTUP)
+# for flag in FLAGSHP:
+#     print(flag)
+# print('\n')
+# for pinset in APSHP:
+#     print(pinset)

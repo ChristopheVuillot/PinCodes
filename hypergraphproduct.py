@@ -14,6 +14,16 @@ def randomclassco(checks, bits, weights):
         for j in range(0, bits):
             if rd.random() < weights/bits:
                 hmat[i, j] = 1
+    emptyrows = []
+    emptycolumns = []
+    for j in range(checks):
+        if not hmat[j].any():
+            emptyrows.append(j)
+    for j in range(bits):
+        if not hmat[:, j].any():
+            emptycolumns.append(j)
+    hmat = np.delete(hmat, emptyrows, 0)
+    hmat = np.delete(hmat, emptycolumns, 1)
     return hmat
 
 
@@ -36,4 +46,35 @@ def randomhypergraphproduct(checks, bits, weights, seed=None):
     """
     rd.seed(seed)
     return hypergraphproduct(randomclassco(checks, bits, weights),
-                             randomclassco(checks, bits, weights))
+                             np.transpose(randomclassco(checks, bits, weights)))
+
+
+def hypergraphproductlist(hmatlist, hmatnew):
+    """Construct the product from a chain complex and
+    an additional classical code
+    """
+    length = len(hmatlist)
+    checkbitlist = [hmat.shape for hmat in hmatlist]
+    (checks, bits) = hmatnew.shape
+    transitionlist = [np.bmat([np.kron(np.identity(checks), hmatlist[0]),
+                               np.kron(hmatnew, np.identity(checkbitlist[0][0]))])]
+    for j in range(1, length):
+        transitionlist.append(np.bmat([[np.kron(np.identity(checks), hmatlist[j]),
+                                        np.kron(hmatnew, np.identity(checkbitlist[j][0]))],
+                                       [np.zeros((bits*checkbitlist[j-1][0], checks*checkbitlist[j][1]), dtype='int'),
+                                        np.kron(np.identity(bits), hmatlist[j-1])]]))
+
+    transitionlist.append(np.bmat([[np.kron(hmatnew, np.identity(checkbitlist[length-1][1]))],
+                                   [np.kron(np.identity(bits), hmatlist[length-1])]]))
+    return transitionlist
+
+
+def randomhypergraphproductlist(checks, bits, weights, length, seed=None):
+    """Iterates the product construction with random classical codes
+    length times
+    """
+    rd.seed(seed)
+    transitions = [randomclassco(checks, bits, weights)]
+    for _ in range(length):
+        transitions = hypergraphproductlist(transitions, randomclassco(checks, bits, weights))
+    return transitions
