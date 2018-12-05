@@ -1,12 +1,11 @@
 """testing script for chaincode.py
 """
-from numpy import transpose
 import scipy.sparse as sp
 import chaincode as chco
 import hypergraphproduct as hp
 
 if __name__ == "__main__":
-    TRANSITIONS = hp.randomhypergraphproductlist(2, 3, 2, 2, seed=47)
+    TRANSITIONS = hp.randomhypergraphproductlist(12, 13, 2, 2, seed=47)
     POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
     CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
     CCCHECKSX, CCQUBITS = CCX.shape
