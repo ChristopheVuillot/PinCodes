@@ -30,15 +30,16 @@ import hypergraphproduct as hp
 # MX, MZ = chco.chaincode(POSET, 1, 0)
 # print(matmul(MX, transpose(MZ)) % 2)
 
-TRANSITIONS = hp.randomhypergraphproductlist(12, 13, 2, 2, seed=47)
+TRANSITIONS = hp.randomhypergraphproductlist(3, 4, 2, 2, seed=47)
 POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
 # HPMX, HPMZ = hp.randomhypergraphproduct(2, 3, 2, seed=47)
 # CHECKSX, QUBITS = HPMX.shape
 # CHECKSZ, _ = HPMZ.shape
 # POSETHP = chco.GrPoset([HPMX, transpose(HPMZ)], iscomplete=False)
 
-CCX, CCZ = chco.chaincode(POSETHP, 1, 1)
+CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
 print(CCX.shape)
+print(CCZ.shape)
 FLAGSHP = POSETHP.get_flags()
 APSHP = POSETHP.get_all_pinned_sets(1)
 # print(matrix_rank(CCX))
