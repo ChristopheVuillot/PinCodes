@@ -23,14 +23,15 @@ class GrPoset:
     def neighbours_down(self, level, elem):
         """Give the neighbours below elem which is at level
         """
-        assert level < self.length
+        # assert level < self.length
+        # assert elem < self.levelsizes[level]
         return list(np.nonzero(self.transitions[level][elem])[0])
 
 
     def neighbours_up(self, level, elem):
         """Give the neighbours above elem which is at level
         """
-        assert level > 0
+        # assert level > 0
         return list(np.nonzero(self.transitions[level-1][:, elem])[0])
 
 
@@ -85,11 +86,43 @@ class GrPoset:
             for typ in types:
                 pinss = product(*[list(range(self.levelsizes[typ[i]] - self.__boundary_element__[typ[i]])) for i in range(numberpins)])
                 for pins in pinss:
-                    pset = pinned_set(self.get_flags(), list(typ), list(pins))
+                    pset = self.pinned_set(list(typ), list(pins))
+                    # pset = pinned_set_simple(self.get_flags(), list(typ), list(pins))
                     if not pset == []:
                         pinned_sets.append(pset)
             self.__all_pinned_sets__[numberpins] = pinned_sets
         return self.__all_pinned_sets__[numberpins]
+
+
+    def pinned_set(self, typ, pins):
+        """get the pinned set of type typ with pins
+        """
+        numpins = len(pins)
+        # assert len(typ) == numpins
+        # assert numpins < self.length
+        pset = [[pins[0]]]
+        for level in range(typ[0], 0, -1):
+            new_pset = []
+            for flag in pset:
+                new_pset.extend([[a]+flag for a in self.neighbours_up(level, flag[0])])
+            pset = new_pset
+        for interval in range(numpins-1):
+            for level in range(typ[interval], typ[interval+1]-1):
+                new_pset = []
+                for flag in pset:
+                    new_pset.extend([flag+[a] for a in self.neighbours_down(level, flag[level])])
+                pset = new_pset
+            pset = [flag+[pins[interval+1]] for flag in pset
+                    if pins[interval+1] in self.neighbours_down(typ[interval+1]-1,
+                                                                flag[typ[interval+1]-1])]
+            if not pset:
+                return []
+        for level in range(typ[numpins-1], self.length-1):
+            new_pset = []
+            for flag in pset:
+                new_pset.extend([flag+[a] for a in self.neighbours_down(level, flag[level])])
+            pset = new_pset
+        return pset
 
 
 def projection(flag, typ):
@@ -98,10 +131,10 @@ def projection(flag, typ):
     return [a for i, a in enumerate(flag) if i in typ]
 
 
-def pinned_set(flags, typ, pins):
+def pinned_set_simple(flags, typ, pins):
     """get the pinned set of type typ with pins
     """
-    assert len(typ) == len(pins)
+    # assert len(typ) == len(pins)
     return [f for f in flags if projection(f, typ) == pins]
 
 
@@ -113,6 +146,7 @@ def chaincode(poset, xind, zind):
     poset.makecomplete()
     assert (xind + zind) < (poset.length - 2)
     flags = poset.get_flags()
+    # print(flags)
     xpsets = poset.get_all_pinned_sets(xind)
     zpsets = poset.get_all_pinned_sets(zind)
     nqubit = len(flags)
