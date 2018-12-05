@@ -2,6 +2,7 @@
 """
 
 from itertools import combinations, product
+import scipy.sparse as sp
 import numpy as np
 
 
@@ -161,12 +162,12 @@ def chaincode(poset, xind, zind):
     nqubit = len(flags)
     nxchecks = len(xpsets)
     nzchecks = len(zpsets)
-    matx = np.zeros([nxchecks, nqubit], dtype='int')
-    matz = np.zeros([nzchecks, nqubit], dtype='int')
+    matx = sp.dok_matrix((nxchecks, nqubit), dtype='int')
+    matz = sp.dok_matrix((nzchecks, nqubit), dtype='int')
     for checkindex, pset in enumerate(xpsets):
         for flag in pset:
-            matx[checkindex][flags.index(flag)] = 1
+            matx[checkindex, flags.index(flag)] = 1
     for checkindex, pset in enumerate(zpsets):
         for flag in pset:
-            matz[checkindex][flags.index(flag)] = 1
+            matz[checkindex, flags.index(flag)] = 1
     return (matx, matz)
