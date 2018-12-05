@@ -16,23 +16,30 @@ class GrPoset:
         self.levelsizes = [np.size(transitions[j], 0) for j in range(self.length-1)] \
                           + [np.size(transitions[self.length-2], 1)]
         self.__flags__ = None
-        self.__all_pinned_sets__ = [None for j in range(self.length)]
-        self.__boundary_element__ = [False for j in range(self.length)]
+        self.__all_pinned_sets__ = [None for _ in range(self.length)]
+        self.__boundary_element__ = [False for _ in range(self.length)]
+        self.__all_neighbours_down__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
+        self.__all_neighbours_up__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
 
 
     def neighbours_down(self, level, elem):
         """Give the neighbours below elem which is at level
         """
-        # assert level < self.length
-        # assert elem < self.levelsizes[level]
-        return list(np.nonzero(self.transitions[level][elem])[0])
+        assert level < self.length
+        assert elem < self.levelsizes[level]
+        if not self.__all_neighbours_down__[level][elem]:
+            self.__all_neighbours_down__[level][elem] = list(np.nonzero(self.transitions[level][elem])[0])
+        return self.__all_neighbours_down__[level][elem]
 
 
     def neighbours_up(self, level, elem):
         """Give the neighbours above elem which is at level
         """
-        # assert level > 0
-        return list(np.nonzero(self.transitions[level-1][:, elem])[0])
+        assert level > 0
+        assert elem < self.levelsizes[level]
+        if not self.__all_neighbours_up__[level][elem]:
+            self.__all_neighbours_up__[level][elem] = list(np.nonzero(self.transitions[level-1][:, elem])[0])
+        return self.__all_neighbours_up__[level][elem]
 
 
     def makecomplete(self):
@@ -59,6 +66,8 @@ class GrPoset:
             self.iscomplete = True
             self.__all_pinned_sets__ = [None for j in range(self.length)]
             self.__flags__ = None
+            self.__all_neighbours_down__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
+            self.__all_neighbours_up__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
 
 
     def get_flags(self):
