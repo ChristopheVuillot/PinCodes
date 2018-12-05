@@ -5,7 +5,7 @@ import chaincode as chco
 import hypergraphproduct as hp
 
 if __name__ == "__main__":
-    TRANSITIONS = hp.randomhypergraphproductlist(4, 5, 2, 2, seed=None)
+    TRANSITIONS = hp.randomhypergraphproductlist(4, 5, 2, 2, seed=47)
     POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
     CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
     CCCHECKSX, CCQUBITS = CCX.shape

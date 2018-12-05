@@ -14,16 +14,16 @@ def randomclassco(checks, bits, weights):
         for j in range(0, bits):
             if rd.random() < weights/bits:
                 hmat[i, j] = 1
-    emptyrows = []
-    emptycolumns = []
-    for j in range(checks):
-        if not hmat[j].any():
-            emptyrows.append(j)
-    for j in range(bits):
-        if not hmat[:, j].any():
-            emptycolumns.append(j)
-    hmat = np.delete(hmat, emptyrows, 0)
-    hmat = np.delete(hmat, emptycolumns, 1)
+    # emptyrows = []
+    # emptycolumns = []
+    # for j in range(checks):
+    #     if not hmat[j].any():
+    #         emptyrows.append(j)
+    # for j in range(bits):
+    #     if not hmat[:, j].any():
+    #         emptycolumns.append(j)
+    # hmat = np.delete(hmat, emptyrows, 0)
+    # hmat = np.delete(hmat, emptycolumns, 1)
     return hmat
 
 
