@@ -5,7 +5,7 @@ import chaincode as chco
 import hypergraphproduct as hp
 
 if __name__ == "__main__":
-    TRANSITIONS = hp.randomhypergraphproductlist(4, 5, 2, 2, seed=47)
+    TRANSITIONS = hp.randomhypergraphproductlist(6, 7, 2, 2, seed=47)
     POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
     CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
     CCCHECKSX, CCQUBITS = CCX.shape
@@ -15,7 +15,7 @@ if __name__ == "__main__":
                                       CCCHECKSX,
                                       CCCHECKSZ,
                                       CCQUBITS - CCCHECKSX - CCCHECKSZ))
-    print('CSS code condition: {}'.format(sum(sum(abs(matmul(CCX, transpose(CCZ)) % 2)))))
+    # print('CSS code condition: {}'.format(sum(sum(abs(matmul(CCX, transpose(CCZ)) % 2)))))
     # FLAGSHP = POSETHP.get_flags()
     # APSHP1 = POSETHP.get_all_pinned_sets(1)
     # APSHP2 = POSETHP.get_all_pinned_sets(2)
