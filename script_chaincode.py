@@ -1,11 +1,13 @@
 """testing script for chaincode.py
 """
+import time
 import scipy.sparse as sp
 import chaincode as chco
 import hypergraphproduct as hp
 
+
 if __name__ == "__main__":
-    TRANSITIONS = hp.randomhypergraphproductlist(12, 13, 2, 2, seed=47)
+    TRANSITIONS = hp.randomhypergraphproductlist(8, 9, 2, 2, seed=None)
     POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
     CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
     CCCHECKSX, CCQUBITS = CCX.shape
@@ -16,6 +18,9 @@ if __name__ == "__main__":
                                       CCCHECKSZ,
                                       CCQUBITS - CCCHECKSX - CCCHECKSZ))
     print('CSS code condition: {}'.format(sp.find((((CCX.tocsr() * CCZ.transpose().tocsr())/2).ceil() != ((CCX.tocsr() * CCZ.transpose().tocsr())/2).floor()))))
+    TIME = time.localtime()
+    sp.save_npz('CCMatrices/CCZ_{}'.format(time.asctime(TIME)), CCZ.tocsr())
+    sp.save_npz('CCMatrices/CCX_{}'.format(time.asctime(TIME)), CCX.tocsr())
     # FLAGSHP = POSETHP.get_flags()
     # APSHP1 = POSETHP.get_all_pinned_sets(1)
     # APSHP2 = POSETHP.get_all_pinned_sets(2)
