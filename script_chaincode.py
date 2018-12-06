@@ -1,26 +1,27 @@
 """testing script for chaincode.py
 """
-import time
-import scipy.sparse as sp
-import chaincode as chco
-import hypergraphproduct as hp
+# import time
+# import scipy.sparse as sp
+import QuantumCodeConstruction.chaincode as chco
+import QuantumCodeConstruction.hypergraphproduct as hp
+from QuantumCodeConstruction.utils import writesparsematrix
 
 
 if __name__ == "__main__":
-    TRANSITIONS = hp.randomhypergraphproductlist(8, 9, 2, 2, seed=None)
+    TRANSITIONS = hp.randomhypergraphproductlist(2, 3, 2, 2, seed=None)
     POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
     CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
     CCCHECKSX, CCQUBITS = CCX.shape
     CCCHECKSZ, _ = CCZ.shape
     print('qubits - xchecks - zchecks = logicals: \n \
-            {} - {} - {} = {}'.format(CCQUBITS,
-                                      CCCHECKSX,
-                                      CCCHECKSZ,
-                                      CCQUBITS - CCCHECKSX - CCCHECKSZ))
-    print('CSS code condition: {}'.format(sp.find((((CCX.tocsr() * CCZ.transpose().tocsr())/2).ceil() != ((CCX.tocsr() * CCZ.transpose().tocsr())/2).floor()))))
-    TIME = time.localtime()
-    sp.save_npz('CCMatrices/CCZ_{}'.format(time.asctime(TIME)), CCZ.tocsr())
-    sp.save_npz('CCMatrices/CCX_{}'.format(time.asctime(TIME)), CCX.tocsr())
+           {} - {} - {} = {}'.format(CCQUBITS,
+                                     CCCHECKSX,
+                                     CCCHECKSZ,
+                                     CCQUBITS - CCCHECKSX - CCCHECKSZ))
+    # print('CSS code condition: {}'.format(sp.find((((CCX.tocsr() * CCZ.transpose().tocsr())/2).ceil() != ((CCX.tocsr() * CCZ.transpose().tocsr())/2).floor()))))
+    # TIME = time.localtime()
+    writesparsematrix(CCX, 'CCMatrices/custom_CCX.txt')
+    writesparsematrix(CCZ, 'CCMatrices/custom_CCZ.txt')
     # FLAGSHP = POSETHP.get_flags()
     # APSHP1 = POSETHP.get_all_pinned_sets(1)
     # APSHP2 = POSETHP.get_all_pinned_sets(2)
