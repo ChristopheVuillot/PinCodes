@@ -19,20 +19,23 @@ def readsparsematrix(filename):
             matrix[row, col] = field(val)
         return matrix
 
-MX = readsparsematrix('../CCMatrices/custom_CCX.txt')
-MZ = readsparsematrix('../CCMatrices/custom_CCZ.txt')
 
-mx, nx = MX.dimensions()
-mz, nz = MZ.dimensions()
-rankx = MX.rank()
-rankz = MZ.rank()
-k = nx - rankx - rankz
-MultXZ = MX * MZ.transpose()
-csscond = sum(sum(MultXZ)) == 0
+MATX = readsparsematrix('../CCMatrices/custom_CCX.txt')
+MATZ = readsparsematrix('../CCMatrices/custom_CCZ.txt')
 
-print('mx: {} - nx:{}'.format(mx, nx))
-print('mx: {} - nx:{}'.format(mz, nz))
-print('rankx:{}'.format(rankx))
-print('rankz:{}'.format(rankz))
-print('[[n = {}, k = {}]] - rate: k/n = {}'.format(nx, k, float(k)/float(nx)))
-print('csscond: MX * MZ^T = 0 ? {}'.format(csscond))
+ROWSX, QUBITSX = MATX.dimensions()
+ROWSZ, QUBITSZ = MATZ.dimensions()
+RANKX = MATX.rank()
+RANKZ = MATZ.rank()
+LOGICALS = QUBITSX - RANKX - RANKZ
+MULTXZ = MATX * MATZ.transpose()
+CSSCOND = sum(sum(MULTXZ)) == 0
+
+print('mx: {} - nx:{}'.format(ROWSX, QUBITSX))
+print('mx: {} - nx:{}'.format(ROWSZ, QUBITSZ))
+print('rankx:{}'.format(RANKX))
+print('rankz:{}'.format(RANKZ))
+print('[[n = {}, k = {}]] - rate: k/n = {}'.format(QUBITSX,
+                                                   LOGICALS,
+                                                   float(LOGICALS)/float(QUBITSX)))
+print('csscond: MX * MZ^T = 0 ? {}'.format(CSSCOND))
