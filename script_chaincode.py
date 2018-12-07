@@ -8,7 +8,7 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 
 if __name__ == "__main__":
-    TRANSITIONS = hp.randomhypergraphproductlist(2, 3, 2, 2, seed=None)
+    TRANSITIONS = hp.randomhypergraphproductlist(5, 6, 2, 2, seed=None)
     POSETHP = chco.GrPoset(TRANSITIONS, iscomplete=False)
     CCX, CCZ = chco.chaincode(POSETHP, 1, 2)
     CCCHECKSX, CCQUBITS = CCX.shape

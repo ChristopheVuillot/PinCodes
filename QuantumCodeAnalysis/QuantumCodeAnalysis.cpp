@@ -17,7 +17,7 @@ int main(int argc, char** argv)
     std::string filez = argv[3];
 
     // Creating the finite field Z/pZ
-    typedef Givaro::Modular<double> Field;
+    typedef Givaro::Modular<float> Field;
     Field F(p); 
     Field::Element zero = F.zero;
     Field::Element one = F.one;
@@ -29,6 +29,7 @@ int main(int argc, char** argv)
     FFLAS::FFLAS_FORMAT format;
     format = FFLAS::FflasSMS;
 
+    std::cout << "Reading matrices from file: " << std::endl;
     FFLAS::ReadMatrix(filex.c_str(), F, mx, nx, CCX, format);
     FFLAS::ReadMatrix(filez.c_str(), F, mz, nz, CCZ, format);
     MULTXZ = FFLAS::fflas_new(F,mx,mz);
@@ -37,13 +38,44 @@ int main(int argc, char** argv)
     FFLAS::FFLAS_TRANSPOSE tx, tz;
     tx = FFLAS::FflasNoTrans;
     tz = FFLAS::FflasTrans;
+    std::cout << "Multiplying matrices: " << std::endl;
     FFLAS::fgemm(F, tx, tz, mx, mz, nx, one, CCX, nx, CCZ, nz, zero, MULTXZ, nz);
 
     // Result should be all zeros
-    FFLAS::WriteMatrix (std::cout << "MULTXZ:=", F, mx, mz, MULTXZ, mz) << std::endl;
-    // FFLAS::fflas_delete(CCX);
+    Field::Element * onesL, * onesR, * rowsum;
+    onesL = FFLAS::fflas_new(F,mx,1);
+    rowsum = FFLAS::fflas_new(F,mx,1);
+    onesR = FFLAS::fflas_new(F,mz,1);
+    for (size_t i=0; i<mx; i++) {
+	    F.init(onesL[i], one);
+	    F.init(rowsum[i], zero);
+    }
+    for (size_t i=0; i<mz; i++) {
+	    F.init(onesR[i], one);
+    }
+
+
+    std::cout << "Checking if commute: " << std::endl;
+    FFLAS::fgemv(F, FFLAS::FflasNoTrans, mx, mz, one, MULTXZ, mz, onesR, 1, zero, rowsum, 1);
+    std::cout << "Checking if commute: " << std::endl;
+    Field::Element res = FFLAS::fdot(F, mx, onesL, 1, rowsum, 1);
+
+    std::cout << "HxHz^T == 0 ? -> " << res << std::endl;
+
+    // FFLAS::WriteMatrix (std::cout << "MULTXZ:=", F, mx, mz, MULTXZ, mz) << std::endl;
+    std::cout << "plop" << std::endl;
+    FFLAS::fflas_delete(CCX);
+    std::cout << "plop" << std::endl;
     // FFLAS::fflas_delete(CCZ);
-    // FFLAS::fflas_delete(MULTXZ);
+    std::cout << "plop" << std::endl;
+    FFLAS::fflas_delete(MULTXZ);
+    std::cout << "plop" << std::endl;
+    FFLAS::fflas_delete(onesL);
+    std::cout << "plop" << std::endl;
+    FFLAS::fflas_delete(onesR);
+    std::cout << "plop" << std::endl;
+    FFLAS::fflas_delete(rowsum);
+    std::cout << "plop" << std::endl;
 
     return 0;
 }
