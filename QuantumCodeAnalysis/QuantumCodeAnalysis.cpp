@@ -8,7 +8,7 @@
 int main(int argc, char** argv)
 {
     if (argc != 4) {
-        std::cerr << "Usage: analyse <p> <ccx> <ccz>" << std::endl;
+        std::cerr << "Usage: analyse <p> <pcx> <pcz>" << std::endl;
         return -1;
     }
 
@@ -23,15 +23,15 @@ int main(int argc, char** argv)
     Field::Element one = F.one;
 
     // Reading the matrices from a file
-    Field::Element * CCX, * CCZ, * MULTXZ;
+    Field::Element * PCX, * PCZ, * MULTXZ;
     size_t mx, nx, mz, nz;
     // Specify the sparse format
     FFLAS::FFLAS_FORMAT format;
     format = FFLAS::FflasSMS;
 
     std::cout << "Reading matrices from file: " << std::endl;
-    FFLAS::ReadMatrix(filex.c_str(), F, mx, nx, CCX, format);
-    FFLAS::ReadMatrix(filez.c_str(), F, mz, nz, CCZ, format);
+    FFLAS::ReadMatrix(filex.c_str(), F, mx, nx, PCX, format);
+    FFLAS::ReadMatrix(filez.c_str(), F, mz, nz, PCZ, format);
     MULTXZ = FFLAS::fflas_new(F,mx,mz);
 
     // Multiplying them
@@ -39,7 +39,7 @@ int main(int argc, char** argv)
     tx = FFLAS::FflasNoTrans;
     tz = FFLAS::FflasTrans;
     std::cout << "Multiplying matrices: " << std::endl;
-    FFLAS::fgemm(F, tx, tz, mx, mz, nx, one, CCX, nx, CCZ, nz, zero, MULTXZ, nz);
+    FFLAS::fgemm(F, tx, tz, mx, mz, nx, one, PCX, nx, PCZ, nz, zero, MULTXZ, nz);
 
     // Result should be all zeros
     Field::Element * onesL, * onesR, * rowsum;
@@ -64,9 +64,9 @@ int main(int argc, char** argv)
 
     // FFLAS::WriteMatrix (std::cout << "MULTXZ:=", F, mx, mz, MULTXZ, mz) << std::endl;
     std::cout << "plop" << std::endl;
-    FFLAS::fflas_delete(CCX);
+    FFLAS::fflas_delete(PCX);
     std::cout << "plop" << std::endl;
-    // FFLAS::fflas_delete(CCZ);
+    FFLAS::fflas_delete(PCZ);
     std::cout << "plop" << std::endl;
     FFLAS::fflas_delete(MULTXZ);
     std::cout << "plop" << std::endl;

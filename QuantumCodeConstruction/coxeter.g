@@ -82,7 +82,7 @@ Create_and_write_to_file_code := function(G, ggen, x, z, name)
   xmatrixlist := [];
   zmatrixlist := [];
   
-  filex := Concatenation(["../CCMatrices/", name, "X.sms"]);
+  filex := Concatenation(["../PCMatrices/", name, "X.sms"]);
   outputx := OutputTextFile(filex, false );;
   AppendTo(outputx, Concatenation([String(numxchecks)," ",String(numqubits)," 2\n"]));
   for j in [1..numxchecks] do
@@ -95,7 +95,7 @@ Create_and_write_to_file_code := function(G, ggen, x, z, name)
   AppendTo(outputx, "0 0 0\n");
   CloseStream(outputx);
 
-  filez := Concatenation(["../CCMatrices/", name, "Z.sms"]);
+  filez := Concatenation(["../PCMatrices/", name, "Z.sms"]);
   outputz := OutputTextFile(filez, false );;
   AppendTo(outputz, Concatenation([String(numzchecks)," ",String(numqubits)," 2\n"]));
   for j in [1..numzchecks] do
