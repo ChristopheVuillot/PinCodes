@@ -46,6 +46,9 @@ class GrPoset:
     def makecomplete(self):
         """make the poset complete by adding greatest and least elments
         """
+        # TODO:
+        # check if there are hanging elements in the middle and patch them
+        # to link them to level 0 or D.
         if not self.iscomplete:
             sumall0 = np.sum(self.transitions[0], axis=0) % 2
             if not sum(abs(sumall0)) == 0:
@@ -67,8 +70,10 @@ class GrPoset:
             self.iscomplete = True
             self.__all_pinned_sets__ = [None for j in range(self.length)]
             self.__flags__ = None
-            self.__all_neighbours_down__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
-            self.__all_neighbours_up__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
+            self.__all_neighbours_down__ = [[None for _ in range(self.levelsizes[j])]
+                                            for j in range(self.length)]
+            self.__all_neighbours_up__ = [[None for _ in range(self.levelsizes[j])]
+                                          for j in range(self.length)]
 
 
     def get_flags(self):

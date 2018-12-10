@@ -1,3 +1,6 @@
+"""Sage script to extract logical representatives from a CSS code
+"""
+
 import sage.all as sga
 
 def readsparsematrix(filename):
