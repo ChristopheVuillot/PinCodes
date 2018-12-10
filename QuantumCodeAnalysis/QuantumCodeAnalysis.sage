@@ -19,7 +19,8 @@ def readsparsematrix(filename):
             row = int(linelist[0]) - 1
             col = int(linelist[1]) - 1
             val = int(linelist[2])
-            matrix[row, col] = field(val)
+	    if row >= 0 and col >= 0:
+	        matrix[row, col] = field(val)
         return matrix
 
 
@@ -43,8 +44,8 @@ def logicals(hmatx, hmatz):
     return (logicalx, logicalz)
 
 
-MATX = readsparsematrix('../CCMatrices/custom_CCX.txt')
-MATZ = readsparsematrix('../CCMatrices/custom_CCZ.txt')
+MATX = readsparsematrix('../CCMatrices/test_coxeterX.sms')
+MATZ = readsparsematrix('../CCMatrices/test_coxeterZ.sms')
 
 ROWSX, QUBITSX = MATX.dimensions()
 ROWSZ, QUBITSZ = MATZ.dimensions()
