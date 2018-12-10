@@ -44,8 +44,8 @@ def logicals(hmatx, hmatz):
     return (logicalx, logicalz)
 
 
-MATX = readsparsematrix('../PCMatrices/test_coxeterX.sms')
-MATZ = readsparsematrix('../PCMatrices/test_coxeterZ.sms')
+MATX = readsparsematrix('../PCMatrices/custom_PCX.sms')
+MATZ = readsparsematrix('../PCMatrices/custom_PCZ.sms')
 
 ROWSX, QUBITSX = MATX.dimensions()
 ROWSZ, QUBITSZ = MATZ.dimensions()
