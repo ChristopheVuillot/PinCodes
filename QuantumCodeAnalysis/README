@@ -1,5 +1,5 @@
 To use the C++ implementation with FFLAS-FFPACK:
-	make compile cpp
+	make compilecpp
 	./QuantumCodeAnalysis.o ...
 
 To use the Sage implementation:
