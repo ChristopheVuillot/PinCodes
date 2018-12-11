@@ -110,3 +110,13 @@ Create_and_write_to_file_code := function(G, ggen, x, z, name)
 
   return [numqubits, numxchecks, numzchecks, xmatrixlist, zmatrixlist];
 end;
+
+
+script := function(SchlaefliS, r, x, z, name)
+  local G, ggen;
+  G := Petri_compact_fromMatrix(CoxeterMatrix(SchlaefliS), r);
+  ggen := GeneratorsOfGroup(G);
+  Create_and_write_to_file_code(G, ggen, x, z, name);
+end;
+
+script([8,8,8,8], 3, 1, 2, "coxeter88883");
