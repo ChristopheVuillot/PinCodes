@@ -19,8 +19,7 @@ def low_weight_logical(G1, G2, trials):
         C1 = LinearCode(G1perm)
         C1, perm_stdform = C1.standard_form(return_permutation=True)
         G1perm = copy(C1.systematic_generator_matrix())
-        G1perm.permute_columns(perm_stdform.inverse())
-        G1perm.permute_columns(perm_rand.inverse())
+        G1perm.permute_columns((perm_rand*perm_stdform).inverse())
         for v in G1perm:
             ham_v = v.hamming_weight()
             if ham_v < min_d:
