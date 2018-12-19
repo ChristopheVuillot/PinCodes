@@ -6,7 +6,7 @@ def low_weight_logical(G1, G2, trials):
     """
     Monte Carlo algorithm which tries to find the lowest weight code word of G1 which has odd overlap with
     code words in G2.
-    INPUT: Two linear codes given by generating matrices of shape kxn.
+    INPUT: Two linear codes given by generating matrices of shape kxn. Number of Monte Carlo trials.
     OUTPUT: A code word of G1 with low weight.
     """
     k, n = G1.dimensions()
@@ -30,6 +30,11 @@ def low_weight_logical(G1, G2, trials):
 
 
 def distance_upper_bound(Gx, Gz, trials):
+    """
+    Monte Carlo algorithm which upper bounds the distance of a CSS quantum code
+    INPUT: Two linear codes given by generating matrices of shape kxn. Number of Monte Carlo trials.
+    OUTPUT: Upper bound on code distance.
+    """
     logicalX = low_weight_logical(Gx, Gz, trials)
     logicalZ = low_weight_logical(Gz, Gx, trials)
     dX = logicalX.hamming_weight()
