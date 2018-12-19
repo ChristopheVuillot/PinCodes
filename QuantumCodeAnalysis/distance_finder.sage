@@ -6,7 +6,7 @@ def distance_find(G1,G2,trials):
     """
     Monte Carlo algorithm which tries to find the lowest weight code word of G1 which has odd overlap with
     code words in G2.
-    INPUT: Two linear codes given by generating matrices
+    INPUT: Two linear codes given by generating matrices of shape kxn.
     OUTPUT: A code word of G1 with low weight.
     """
     k,n = G1.dimensions()
