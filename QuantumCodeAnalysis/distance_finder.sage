@@ -2,7 +2,7 @@ import numpy as np
 from sage.all import GF, matrix, vector, Permuations, copy, LinearCode
 
 
-def distance_find(G1,G2,trials):
+def low_weight_logical(G1,G2,trials):
     """
     Monte Carlo algorithm which tries to find the lowest weight code word of G1 which has odd overlap with
     code words in G2.
@@ -28,3 +28,11 @@ def distance_find(G1,G2,trials):
                     min_d = ham_v
                     min_logical = v
     return min_logical
+
+def distance_upper_bound(Gx,Gz,trials):
+    logicalX = low_weight_logical(Gx,Gz,trials)
+    logicalZ = low_weight_logical(Gz,Gx,trials)
+    dX = logicalX.hamming_weight()
+    dZ = logicalZ.hamming_weight()
+    return min(dX,dZ)
+    
