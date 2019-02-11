@@ -1,29 +1,37 @@
-"""Sage script to extract logical representatives from a CSS code
+"""Sage functions to extract logical representatives from a CSS code
 """
 
 import sage.all as sga
 from itertools import combinations
+from scipy.sparse import load_npz
 
 
-def readsparsematrix(filename):
+def readsparsematrix(filename, fieldsize=2):
     """Read a matrix in sparse format from file
     """
-    with open(filename, 'r') as matrixfile:
-        topline = matrixfile.readline()
-        toplist = topline.strip().split(' ')
-        numrow = int(toplist[0])
-        numcol = int(toplist[1])
-        fieldsize = int(toplist[2])
+    _, ext = filename.split('.')
+    if ext == 'sms':
+        with open(filename, 'r') as matrixfile:
+            topline = matrixfile.readline()
+            toplist = topline.strip().split(' ')
+            numrow = int(toplist[0])
+            numcol = int(toplist[1])
+            fieldsize = int(toplist[2])
+            field = sga.GF(fieldsize)
+            matrix = sga.matrix(field, numrow, numcol, sparse=True)
+            for line in matrixfile:
+                linelist = line.strip().split(' ')
+                row = int(linelist[0]) - 1
+                col = int(linelist[1]) - 1
+                val = int(linelist[2])
+                if row >= 0 and col >= 0:
+                    matrix[row, col] = field(val)
+    elif ext == 'npz':
         field = sga.GF(fieldsize)
-        matrix = sga.matrix(field, numrow, numcol, sparse=True)
-        for line in matrixfile:
-            linelist = line.strip().split(' ')
-            row = int(linelist[0]) - 1
-            col = int(linelist[1]) - 1
-            val = int(linelist[2])
-            if row >= 0 and col >= 0:
-                matrix[row, col] = field(val)
-        return matrix
+        matrix = sga.matrix(field, load_npz(filename).todense())
+    else:
+        print('Wrong format !! .{} is not recognized'.format(ext))
+    return matrix
 
 
 def logicals(hmatx, hmatz):
@@ -62,48 +70,3 @@ def logical_circuit(logicalx, k_orth):
             if coef != 0:
                 jgates.append((indices, coef))
     return gates
-
-
-GATESCCZ = logical_circuit([[1, 1, 0, 1, 0, 0, 0, 1],
-                            [1, 1, 1, 0, 1, 0, 0, 0],
-                            [1, 0, 1, 1, 0, 1, 0, 0]], 3)
-GATESCZ = logical_circuit([[1, 1, 0, 0],
-                           [1, 0, 1, 0]], 2)
-print(GATESCCZ)
-print(GATESCZ)
-MATX = readsparsematrix('../PCMatrices/coxeter44442X.sms')
-MATZ = readsparsematrix('../PCMatrices/coxeter44442Z.sms')
-
-ROWSX, QUBITSX = MATX.dimensions()
-ROWSZ, QUBITSZ = MATZ.dimensions()
-RANKX = MATX.rank()
-RANKZ = MATZ.rank()
-NUMLOGICALS = QUBITSX - RANKX - RANKZ
-MULTXZ = MATX * MATZ.transpose()
-CSSCOND = sum(sum(MULTXZ)) == 0
-
-LOGX, LOGZ = logicals(MATX, MATZ)
-
-print('mx: {} - nx:{}'.format(ROWSX, QUBITSX))
-print('mz: {} - nz:{}'.format(ROWSZ, QUBITSZ))
-print('rankx:{}'.format(RANKX))
-print('rankz:{}'.format(RANKZ))
-print('[[n = {}, k = {}]]'.format(QUBITSX, NUMLOGICALS))
-print('rate: k/n = {}'.format(float(NUMLOGICALS) / float(QUBITSX)))
-print('csscond: MX * MZ^T = 0 ? {}'.format(CSSCOND))
-LOGCIRC = logical_circuit(LOGX, 3)
-# print(LOGCIRC)
-for gate in LOGCIRC[0]:
-    if 1 in gate[0]:
-        print(gate)
-for gate in LOGCIRC[1]:
-    if 1 in gate[0]:
-        print(gate)
-for gate in LOGCIRC[2]:
-    if 1 in gate[0]:
-        print(gate)
-# for j in range(NUMLOGICALS):
-#     print('logical X_{}: {}'.format(j, LOGX[j]))
-# print('\n')
-# for j in range(NUMLOGICALS):
-#     print('logical Z_{}: {}'.format(j, LOGZ[j]))
