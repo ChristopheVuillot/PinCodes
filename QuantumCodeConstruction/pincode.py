@@ -52,12 +52,14 @@ class GrPoset:
         if not self.iscomplete:
             sumall0 = np.sum(self.transitions[0], axis=0) % 2
             if not sum(abs(sumall0)) == 0:
+                print("Adding boundary element !")
                 self.transitions[0] = np.vstack([self.transitions[0], sumall0])
                 self.levelsizes[0] += 1
                 self.__boundary_element__[0] = True
             last = self.length - 2
             sumalllast = np.sum(self.transitions[last], axis=1) % 2
             if not sum(abs(sumalllast)) == 0:
+                print("Adding boundary element !")
                 self.transitions[last] = np.transpose(np.vstack([np.transpose(self.transitions[last]), sumalllast]))
                 self.levelsizes[last + 1] += 1
                 self.__boundary_element__[last + 1] = True
@@ -96,7 +98,7 @@ class GrPoset:
         memorizes it for latter calls
         """
         if not self.__all_pinned_sets__[numberpins]:
-            types = combinations(range(1, self.length-1), numberpins)
+            types = combinations(range(0, self.length), numberpins)
             pinned_sets = []
             for typ in types:
                 pinss = product(*[list(range(self.levelsizes[typ[i]] - self.__boundary_element__[typ[i]])) for i in range(numberpins)])
