@@ -1,5 +1,5 @@
 # import numpy as np
-# from sage.all import GF, matrix, vector, Permuations, copy, LinearCode
+from sage.all import GF, matrix, vector, Permuations, copy, LinearCode
 
 
 def low_weight_logical(G1, G2, trials):
