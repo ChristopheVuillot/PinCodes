@@ -68,15 +68,11 @@ def logical_circuit(logicalx, k_orth):
     logicalx_index = list(zip(range(k), logicalx))
     gates = [[] for _ in range(k_orth)]
     for j, jgates in enumerate(gates):
-        print(j)
         for tupl in combinations(logicalx_index, j + 1):
             indices, logs = zip(*tupl)
-            print(indices)
             wedge = [int(np.prod(t)) for t in zip(*logs)]
-            print(wedge)
             coef = ((-1)**j * 2**j * sum(wedge)) \
                 % (2**k_orth)
-            print(coef)
             if coef != 0:
                 jgates.append((indices, coef))
     return gates

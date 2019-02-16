@@ -4,8 +4,8 @@ import numpy as np
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
 from QuantumCodeConstruction.utils import readsparsematrix
 
-MX = readsparsematrix('PCMatrices/535_3420_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/535_3420_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
 
 print('Properties of the code 535_3420:')
 print('X-check matrix is {}x{}'.format(MX.shape[0], MX.shape[1]))
