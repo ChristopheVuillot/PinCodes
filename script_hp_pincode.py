@@ -1,5 +1,6 @@
 """creating pin codes from hypergraph products
 """
+import numpy as np
 import QuantumCodeConstruction.pincode as pinco
 import QuantumCodeConstruction.hypergraphproduct as hp
 from QuantumCodeConstruction.utils import writesparsematrix
@@ -22,5 +23,9 @@ if __name__ == "__main__":
                                      PCCHECKSX,
                                      PCCHECKSZ,
                                      PCQUBITS - PCCHECKSX - PCCHECKSZ))
+
+    CSSCOND = (np.dot(PCX.todense(), PCZ.transpose().todense()) % 2).sum() == 0
+    print('This is a valid CSS code: {}'.format(CSSCOND))
+
     writesparsematrix(PCX, 'PCMatrices/randomhp_' + str(SEED) + '_X.sms')
     writesparsematrix(PCZ, 'PCMatrices/randomhp_' + str(SEED) + '_Z.sms')
