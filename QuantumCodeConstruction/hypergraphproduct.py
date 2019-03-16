@@ -36,7 +36,7 @@ def hypergraphproduct(hmat1, hmat2):
     hmatx = np.bmat([np.kron(np.identity(checks2), hmat1),
                      np.kron(hmat2, np.identity(checks1))])
     hmatz = np.bmat([np.kron(np.transpose(hmat2), np.identity(bits1)),
-                     -np.kron(np.identity(bits2), np.transpose(hmat1))])
+                     np.kron(-np.identity(bits2), np.transpose(hmat1))])
     return (hmatx, hmatz)
 
 
@@ -69,12 +69,14 @@ def hypergraphproductlist(hmatlist, hmatnew):
     return transitionlist
 
 
-def randomhypergraphproductlist(checks, bits, weights, length, seed=None):
+def randomhypergraphproductlist(checks, bits, weights, length, seed=None, swap=False):
     """Iterates the product construction with random classical codes
     length times
     """
     rd.seed(seed)
     transitions = [randomclassco(checks, bits, weights)]
     for _ in range(length):
+        if swap:
+            (checks, bits) = (bits, checks)
         transitions = hypergraphproductlist(transitions, randomclassco(checks, bits, weights))
     return transitions
