@@ -9,8 +9,8 @@ goodones = []
 for SEED in range(1000, 1001):
     if SEED == 1097:
         continue
-    MX = readsparsematrix('PCMatrices/randomhp_swap_{}_X.sms'.format(SEED)).todense()
-    MZ = readsparsematrix('PCMatrices/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
+    MX = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_X.sms'.format(SEED)).todense()
+    MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
     MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
     MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
 
