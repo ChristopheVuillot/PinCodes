@@ -31,5 +31,5 @@ if __name__ == "__main__":
         CSSCOND = (np.dot(PCX.todense(), PCZ.transpose().todense()) % 2).sum() == 0
         print('This is a valid CSS code: {}'.format(CSSCOND))
 
-        writesparsematrix(PCX, 'PCMatrices/systematichp/systematic33_repeat3_transpose_{}_X.sms'.format(j))
-        writesparsematrix(PCZ, 'PCMatrices/systematichp/systematic33_repeat3_transpose_{}_Z.sms'.format(j))
+        writesparsematrix(PCX, 'PCMatrices/systematichp/systematic33_repeat3_transpose_{}_X.sms'.format(j + 1))
+        writesparsematrix(PCZ, 'PCMatrices/systematichp/systematic33_repeat3_transpose_{}_Z.sms'.format(j + 1))
