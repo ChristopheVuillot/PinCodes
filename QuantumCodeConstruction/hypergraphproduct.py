@@ -95,6 +95,28 @@ def hypergraphproductlist(hmatlist, hmatnew):
     return transitionlist
 
 
+def reapeatedhypergraphproduct(hmat, nrepeat, transpose=True):
+    """produce the repeated hypergraph product of the matrice hmat
+    alternatively transposing it if transpose.
+    """
+    transitionlist = [hmat]
+    for j in range(nrepeat):
+        if transpose and ((j % 2) == 0):
+            transitionlist = hypergraphproductlist(transitionlist, hmat.transpose())
+        else:
+            transitionlist = hypergraphproductlist(transitionlist, hmat)
+    return transitionlist
+
+
+def hypergraphproductlistlist(hmatlist):
+    """produce the hypergraph product of all elements in hmatlist
+    """
+    transitionlist = [hmatlist[0]]
+    for j in range(1, len(hmatlist)):
+        transitionlist = hypergraphproductlist(transitionlist, hmatlist[j])
+    return transitionlist
+
+
 def randomhypergraphproductlist(checks, bits, weights, length, seed=None, swap=False):
     """Iterates the product construction with random classical codes
     length times
