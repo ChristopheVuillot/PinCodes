@@ -1,0 +1,4058 @@
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 8, 40, 84, 20}
+{4, 6, 8, 10, 16, 24}
+[1, 4, 19, 33, 10, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 64 - 279 = 113
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 8, 40, 84, 20}
+{4, 6, 8, 10, 16, 24}
+[1, 4, 19, 33, 10, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 64 - 279 = 113
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 132, 16, 80, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 125 - 1206 = 445
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 20, 84}
+{4, 6, 8, 10, 16, 24}
+[1, 10, 33, 19, 4, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 64 - 279 = 113
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 12, 16, 48, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                648 - 216 - 513 = -81
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                648 - 216 - 513 = -81
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 12, 16, 48, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 16, 48, 80, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                648 - 216 - 513 = -81
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 20, 84}
+{4, 6, 8, 10, 16, 24}
+[1, 10, 33, 19, 4, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 64 - 279 = 113
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 12, 16, 48, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                648 - 216 - 513 = -81
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 12, 16, 48, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 16, 48, 80, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 132, 80, 16, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 125 - 1206 = 445
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 16, 80, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 27, 81, 81, 27, 1]
+qubits - xchecks - zchecks = logicals: 
+                1296 - 216 - 1512 = -432
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 27, 81, 81, 27, 1]
+qubits - xchecks - zchecks = logicals: 
+                1296 - 216 - 1512 = -432
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 2, 3, 3, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                24 - 8 - 19 = -3
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                648 - 216 - 513 = -81
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                192 - 64 - 152 = -24
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{8, 12}
+{4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                648 - 216 - 513 = -81
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 5, 12, 9, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 8, 40, 20, 84}
+{4, 6, 8, 10, 16, 24}
+[1, 10, 33, 19, 4, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 64 - 279 = 113
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 40, 8, 12, 16, 48, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 16, 48, 80, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 48, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 40, 8, 12, 16, 48, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 84, 52, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 20, 52, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 16, 48, 80, 84, 20, 52, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 16, 80, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 27, 81, 81, 27, 1]
+qubits - xchecks - zchecks = logicals: 
+                1296 - 216 - 1512 = -432
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 16, 80, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 132, 80, 16, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 125 - 1206 = 445
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 27, 81, 81, 27, 1]
+qubits - xchecks - zchecks = logicals: 
+                1296 - 216 - 1512 = -432
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 80, 48, 16, 56, 28, 216}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 80, 48, 16, 56, 28, 216}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 80, 48, 16, 56, 28, 216}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 3, 9, 12, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+                112 - 27 - 98 = -13
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 125 - 387 = -56
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 16, 48, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 80, 16, 48, 20, 52, 84, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 8, 40, 12, 48, 80, 16, 20, 52, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 27, 81, 81, 27, 1]
+qubits - xchecks - zchecks = logicals: 
+                1296 - 216 - 1512 = -432
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 9, 24, 24, 9, 1]
+qubits - xchecks - zchecks = logicals: 
+                288 - 64 - 279 = -55
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 216 - 784 = -136
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                608 - 125 - 604 = -121
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 27, 81, 81, 27, 1]
+qubits - xchecks - zchecks = logicals: 
+                1296 - 216 - 1512 = -432
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 80, 48, 16, 56, 28, 216}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+{48, 16}
+{8, 4, 6}
+[1, 8, 24, 24, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+                384 - 64 - 448 = -128
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 8, 12, 48, 16, 20}
+{8, 4, 6}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 216 - 1115 = -251
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 132, 80, 16, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 19, 51, 44, 13, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 125 - 1206 = 445
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 80, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 48, 16, 80, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 80, 48, 16, 56, 28, 216}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 16, 48, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 80, 48, 16, 56, 28, 216}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 8, 40, 84, 20}
+{4, 6, 8, 10, 16, 24}
+[1, 4, 19, 33, 10, 1]
+qubits - xchecks - zchecks = logicals: 
+                456 - 64 - 279 = 113
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 132, 16, 80, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 125 - 1206 = 445
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 40, 8, 12, 48, 16, 20, 84, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 40, 8, 12, 48, 16, 20, 84, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 80, 48, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 80, 48, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 80, 48, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                864 - 125 - 604 = 135
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1480 - 216 - 1115 = 149
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 40, 8, 12, 48, 16, 84, 20, 216}
+{4, 6, 8, 10, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1920 - 216 - 1115 = 589
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 80, 48, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 48, 80, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 48, 80, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1080 - 125 - 875 = 80
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 20, 56, 24, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 216 - 1512 = 48
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 80, 48, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2304 - 216 - 1512 = 576
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 48, 80, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                2688 - 216 - 1981 = 491
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 80, 48, 16, 52, 84, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 48, 80, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 132, 16, 80, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 13, 44, 51, 19, 1]
+qubits - xchecks - zchecks = logicals: 
+                1776 - 125 - 1206 = 445
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 84, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 80, 48, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{32, 96, 132, 40, 8, 12, 48, 16, 80, 84, 52, 20, 216, 24, 56, 28}
+{4, 6, 8, 10, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                3416 - 216 - 1981 = 1219
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 48, 80, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{96, 32, 132, 48, 80, 16, 216, 56, 28}
+{4, 6, 8, 14, 16, 24}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                4800 - 216 - 2528 = 2056
+This is a valid CSS code: True
+Adding boundary element !
+Adding boundary element !
+{216, 96}
+{24, 8, 6, 16}
+[1, 28, 81, 81, 28, 1]
+qubits - xchecks - zchecks = logicals: 
+                7776 - 216 - 3159 = 4401
+This is a valid CSS code: True
