@@ -10,6 +10,7 @@ if __name__ == "__main__":
     BINARYMATRICESLIST = hp.systematicclassco(3, 3)
     N = len(BINARYMATRICESLIST)
     for j in range(N):
+        # the real index of the matrix is j+1 as we skip 0 in the matrix list
         TRANSITIONS = hp.reapeatedhypergraphproduct(BINARYMATRICESLIST[j], 2, transpose=True)
         POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
         PCX, PCZ = pinco.pincode(POSETHP, 1, 2)
