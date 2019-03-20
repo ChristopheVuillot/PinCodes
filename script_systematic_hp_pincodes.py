@@ -14,7 +14,7 @@ if __name__ == "__main__":
         POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
         PCX, PCZ = pinco.pincode(POSETHP, 1, 2)
         for k, bmap in enumerate(TRANSITIONS):
-            writesparsematrix(bmap, 'BoundaryMaps/systematichp/systematic33_repeat3_transpose_{}_{}.sms'.format(j, k))
+            writesparsematrix(bmap, 'BoundaryMaps/systematichp/systematic33_repeat3_transpose_{}_{}.sms'.format(j + 1, k))
         WEIGHTSX = {a for che in PCX.sum(axis=1).tolist() for a in che}
         WEIGHTSZ = {a for che in PCZ.sum(axis=1).tolist() for a in che}
         print(WEIGHTSX)
