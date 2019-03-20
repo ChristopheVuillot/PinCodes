@@ -5,6 +5,32 @@ import numpy as np
 import numpy.random as rd
 
 
+def systematicclassco(checks, bits):
+    """returns the list of all, 2^(checks*bits), checks x bits binary matrices.
+    removing emty rows and empty columns.
+    use with care.
+    """
+    nbits = checks*bits
+    nmatrices = 2**nbits
+    hmatlist = [np.zeros((checks, bits), dtype='uint8') for _ in range(1, nmatrices)]
+    for j in range(1, nmatrices):
+        bitstring = np.binary_repr(j, width=nbits)
+        for row in range(checks):
+            for col in range(bits):
+                hmatlist[j-1][row, col] = int(bitstring[row*bits + col])
+        emptyrows = []
+        emptycolumns = []
+        for k in range(checks):
+            if not hmatlist[j-1][k].any():
+                emptyrows.append(k)
+        for k in range(bits):
+            if not hmatlist[j-1][:, k].any():
+                emptycolumns.append(k)
+        hmatlist[j-1] = np.delete(hmatlist[j-1], emptyrows, 0)
+        hmatlist[j-1] = np.delete(hmatlist[j-1], emptycolumns, 1)
+    return hmatlist
+
+
 def randomclassco(checks, bits, weights):
     """construct randomly a c by n adjacency matrix
     with an average of w ones per line
