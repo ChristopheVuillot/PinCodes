@@ -7,7 +7,9 @@ import numpy.random as rd
 
 def systematicclassco(checks, bits):
     """returns the list of all, 2^(checks*bits), checks x bits binary matrices.
-    removing emty rows and empty columns.
+    removing emty rows and empty columns. It skips the all 0 matrix
+    The binary decomposition of the position in the list gives directly the matrix.
+    after correctly accounting that the all 0 matrix is missing at the begining of the list.
     use with care.
     """
     nbits = checks*bits
