@@ -7,20 +7,26 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 
 if __name__ == "__main__":
-    BINARYMATRICESLIST = hp.systematicclassco(4, 3)
+    D = 6
+    X = int(D/3)
+    Z = D-X
+    CHECKS = 2
+    BITS = 2
+    BINARYMATRICESLIST = hp.systematicclassco(CHECKS, BITS)
     N = len(BINARYMATRICESLIST)
+    print('Generating Pin Codes with D={}, x={}, z={}, from all {}x{} binary matrices'.format(D, X, Z, CHECKS, BITS))
     for j in range(N):
         # the real index of the matrix is j+1 as we skip 0 in the matrix list
-        print('Code number {}'.format(j + 1))
-        TRANSITIONS = hp.reapeatedhypergraphproduct(BINARYMATRICESLIST[j], 2, transpose=True)
+        print('Code systematic{}{}_dim{}_transpose_{}'.format(CHECKS, BITS, D, j + 1))
+        TRANSITIONS = hp.reapeatedhypergraphproduct(BINARYMATRICESLIST[j], D-1, transpose=True)
         POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
-        PCX, PCZ = pinco.pincode(POSETHP, 1, 2)
+        PCX, PCZ = pinco.pincode(POSETHP, X, Z)
         for k, bmap in enumerate(TRANSITIONS):
-            writesparsematrix(bmap, 'BoundaryMaps/systematichp/systematic43_repeat3_transpose_{}_{}.sms'.format(j + 1, k))
-        WEIGHTSX = {a for che in PCX.sum(axis=1).tolist() for a in che}
-        WEIGHTSZ = {a for che in PCZ.sum(axis=1).tolist() for a in che}
-        print(WEIGHTSX)
-        print(WEIGHTSZ)
+            writesparsematrix(bmap, 'BoundaryMaps/systematichp/systematic{}{}_dim{}_transpose_{}_{}.sms'.format(CHECKS, BITS, D, j + 1, k))
+        # WEIGHTSX = {a for che in PCX.sum(axis=1).tolist() for a in che}
+        # WEIGHTSZ = {a for che in PCZ.sum(axis=1).tolist() for a in che}
+        # print(WEIGHTSX)
+        # print(WEIGHTSZ)
         print(POSETHP.levelsizes)
         PCCHECKSX, PCQUBITS = PCX.shape
         PCCHECKSZ, _ = PCZ.shape
@@ -33,5 +39,5 @@ if __name__ == "__main__":
         CSSCOND = (np.dot(PCX.todense(), PCZ.transpose().todense()) % 2).sum() == 0
         print('This is a valid CSS code: {}'.format(CSSCOND))
 
-        writesparsematrix(PCX, 'PCMatrices/systematichp/systematic43_repeat3_transpose_{}_X.sms'.format(j + 1))
-        writesparsematrix(PCZ, 'PCMatrices/systematichp/systematic43_repeat3_transpose_{}_Z.sms'.format(j + 1))
+        writesparsematrix(PCX, 'PCMatrices/systematichp/systematic{}{}_dim{}_transpose_{}_X.sms'.format(CHECKS, BITS, D, j + 1))
+        writesparsematrix(PCZ, 'PCMatrices/systematichp/systematic{}{}_dim{}_transpose_{}_Z.sms'.format(CHECKS, BITS, D, j + 1))

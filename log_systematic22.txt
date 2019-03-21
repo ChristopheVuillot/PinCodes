@@ -1,0 +1,18 @@
+Generating Pin Codes with D=6, x=2, z=4, from all 2x2 binary matrices
+Code systematic22_dim6_transpose_1
+Adding boundary element !
+Adding boundary element !
+[1, 2, 6, 15, 20, 15, 6, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                2880 - 665 - 5460 = -3245
+This is a valid CSS code: True
+Code systematic22_dim6_transpose_2
+Adding boundary element !
+Adding boundary element !
+[1, 2, 6, 15, 20, 15, 6, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+                2880 - 665 - 5460 = -3245
+This is a valid CSS code: True
+Code systematic22_dim6_transpose_3
+Adding boundary element !
+Adding boundary element !
