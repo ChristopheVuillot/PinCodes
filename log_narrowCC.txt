@@ -1,0 +1,21 @@
+Generating narrow Pin Code with D=3, x=1, z=2, q=4
+{64}
+{16}
+[1, 4, 4, 4, 4, 1]
+qubits - xchecks - zchecks = logicals: 
+            256 - 16 - 96 = 144
+This is a valid CSS code: True
+Generating narrow Pin Code with D=3, x=1, z=2, q=6
+{216}
+{36}
+[1, 6, 6, 6, 6, 1]
+qubits - xchecks - zchecks = logicals: 
+            1296 - 24 - 216 = 1056
+This is a valid CSS code: True
+Generating narrow Pin Code with D=3, x=1, z=2, q=8
+{512}
+{64}
+[1, 8, 8, 8, 8, 1]
+qubits - xchecks - zchecks = logicals: 
+            4096 - 32 - 384 = 3680
+This is a valid CSS code: True
