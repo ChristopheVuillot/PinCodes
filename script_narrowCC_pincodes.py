@@ -6,12 +6,19 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 
 if __name__ == "__main__":
-    D = 9
+    D = 6
     X = int(D/3)
     Z = D-X
     SIZE = 2
-    print('Generating narrow Pin Code with D={}, x={}, z={}, q={}'.format(D, X, Z, SIZE))
-    TRANSITIONS = [np.ones((SIZE, SIZE), dtype='uint8') for _ in range(D)]
+    # print('Generating narrow Pin Code with D={}, x={}, z={}, q={}'.format(D, X, Z, SIZE))
+    # TRANSITIONS = [np.ones((SIZE, SIZE), dtype='uint8') for _ in range(D)]
+    print('Narrow pin code 2-4-2-4-2-4-2')
+    TRANSITIONS = [np.ones((2, 4), dtype='uint8'),
+                   np.ones((4, 2), dtype='uint8'),
+                   np.ones((2, 4), dtype='uint8'),
+                   np.ones((4, 2), dtype='uint8'),
+                   np.ones((2, 4), dtype='uint8'),
+                   np.ones((4, 2), dtype='uint8')]
     POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
     PCX, PCZ = pinco.pincode(POSETHP, X, Z)
     WEIGHTSX = {a for che in PCX.sum(axis=1).tolist() for a in che}
@@ -30,5 +37,5 @@ if __name__ == "__main__":
     CSSCOND = (np.dot(PCX.todense(), PCZ.transpose().todense()) % 2).sum() == 0
     print('This is a valid CSS code: {}'.format(CSSCOND))
 
-    writesparsematrix(PCX, 'PCMatrices/narrowCC/narrowCC{}_dim{}_X.sms'.format(SIZE, D))
-    writesparsematrix(PCZ, 'PCMatrices/narrowCC/narrowCC{}_dim{}_Z.sms'.format(SIZE, D))
+    writesparsematrix(PCX, 'PCMatrices/narrowCC/narrowCC_alt42_dim{}_X.sms'.format(D))
+    writesparsematrix(PCZ, 'PCMatrices/narrowCC/narrowCC_alt42_dim{}_Z.sms'.format(D))
