@@ -6,10 +6,10 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 
 if __name__ == "__main__":
-    D = 3
+    D = 9
     X = int(D/3)
     Z = D-X
-    SIZE = 8
+    SIZE = 2
     print('Generating narrow Pin Code with D={}, x={}, z={}, q={}'.format(D, X, Z, SIZE))
     TRANSITIONS = [np.ones((SIZE, SIZE), dtype='uint8') for _ in range(D)]
     POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)

@@ -19,3 +19,24 @@ Generating narrow Pin Code with D=3, x=1, z=2, q=8
 qubits - xchecks - zchecks = logicals: 
             4096 - 32 - 384 = 3680
 This is a valid CSS code: True
+Generating narrow Pin Code with D=3, x=1, z=2, q=2
+{8}
+{4}
+[1, 2, 2, 2, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+            16 - 8 - 24 = -16
+This is a valid CSS code: True
+Generating narrow Pin Code with D=6, x=2, z=4, q=2
+{32}
+{8}
+[1, 2, 2, 2, 2, 2, 2, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+            128 - 84 - 560 = -516
+This is a valid CSS code: True
+Generating narrow Pin Code with D=9, x=3, z=6, q=2
+{128}
+{16}
+[1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]
+qubits - xchecks - zchecks = logicals: 
+            1024 - 960 - 13440 = -13376
+This is a valid CSS code: True
