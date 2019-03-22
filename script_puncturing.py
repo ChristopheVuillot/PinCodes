@@ -11,8 +11,8 @@ from QuantumCodeConstruction.utils import readsparsematrix
 # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_429_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_Z.sms').todense()
-MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222233_dim6_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222233_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
 # MZ = readsparsematrix('PCMatrices/535_3420_ZCOS.sms').todense()
 
@@ -23,8 +23,7 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-# BESTGAMMA = np.log(15/1)/np.log(3)
-BESTGAMMA = 5
+BESTGAMMA = 3
 for k in range(1, 34):
     for _ in range(300):
         PERM = np.random.permutation(NQ)
@@ -47,7 +46,20 @@ for k in range(1, 34):
         WEIGHT = LOWWEIGHTLOGZ.sum()
         KP = len(REALLOGX)
         NP = PUNCTMATX.shape[1]
-        GAMMA = np.log(NP/KP)/np.log(WEIGHT)
+        if WEIGHT > 1:
+            GAMMA = np.log(NP/KP)/np.log(WEIGHT)
+        else:
+            GAMMA = 10
+        if GAMMA < BESTGAMMA:
+            TRIALS = 100
+            LOWWEIGHTLOGZ, _ = low_weight_logical(KERZ, PUNCTLOGX, TRIALS)
+            if WEIGHT > LOWWEIGHTLOGZ.sum():
+                WEIGHT = LOWWEIGHTLOGZ.sum()
+            if WEIGHT > 1:
+                GAMMA = np.log(NP/KP)/np.log(WEIGHT)
+            else:
+                GAMMA = 10
+
         if GAMMA < BESTGAMMA:
             BESTGAMMA = GAMMA
             BESTK = K
