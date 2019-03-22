@@ -20,8 +20,8 @@ MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_Z.sms').todense
 RX, NQ = MX.shape
 RZ, _ = MZ.shape
 
-MX = np.array(MX, dtype='uint8')
-SX = fl.row_reduce_transform(MX)
+# MX = np.array(MX, dtype='uint8')
+# SX = fl.row_reduce_transform(MX)
 
 PERM = np.random.permutation(NQ)
 print('permutation: {}'.format(PERM))
