@@ -23,34 +23,47 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-PERM = np.random.permutation(NQ)
-print('permutation: {}'.format(PERM))
-K = int(NQ/40)
-print('K={}'.format(K))
+# BESTGAMMA = np.log(15/1)/np.log(3)
+BESTGAMMA = 5
+for k in range(1, 34):
+    for _ in range(300):
+        PERM = np.random.permutation(NQ)
+        K = k
 
-PUNCTMATX, PERMSTD = puncture(MX, PERM, K)
-print(PERMSTD)
-print('MX.shape = {}'.format(MX.shape))
-print('PUNCTMATX.shape = {}'.format(PUNCTMATX.shape))
+        PUNCTMATX, PERMSTD = puncture(MX, PERM, K)
 
-PUNCTSTABX = np.array(PUNCTMATX[K:, :], dtype='uint8')
-PUNCTLOGX = np.array(PUNCTMATX[:K, :], dtype='uint8')
-print(PUNCTLOGX)
-print('PUNCTSTABX.shape = {}'.format(PUNCTSTABX.shape))
-print('PUNCTLOGX.shape = {}'.format(PUNCTLOGX.shape))
+        PUNCTSTABX = np.array(PUNCTMATX[K:, :], dtype='uint8')
+        PUNCTLOGX = np.array(PUNCTMATX[:K, :], dtype='uint8')
 
-PUNCTSTABZ = fl.kernel(PUNCTMATX.transpose())
-print('PUNCTSTABZ.shape = {}'.format(PUNCTSTABZ.shape))
-KERZ = fl.kernel(PUNCTSTABX.transpose())
-KERX = fl.kernel(PUNCTSTABZ.transpose())
+        PUNCTSTABZ = fl.kernel(PUNCTMATX.transpose())
+        KERZ = fl.kernel(PUNCTSTABX.transpose())
+        KERX = fl.kernel(PUNCTSTABZ.transpose())
 
-print('KERZ.shape = {}'.format(KERZ.shape))
-print('KERX.shape = {}'.format(KERX.shape))
-PUNCTLOGZ = fl.quotient_basis(KERZ, PUNCTSTABZ)
-REALLOGX = fl.quotient_basis(KERX, PUNCTSTABX)
-print('REALLOGX len = {}'.format(len(REALLOGX)))
-print('PUNCTLOGZ len = {}'.format(len(PUNCTLOGZ)))
+        PUNCTLOGZ, _ = fl.quotient_basis(KERZ, PUNCTSTABZ)
+        REALLOGX, _ = fl.quotient_basis(KERX, PUNCTSTABX)
 
-TRIALS = 20
-LOWWEIGHTLOGZ, _ = low_weight_logical(KERZ, PUNCTLOGX, TRIALS)
-print('Low weight logical of weight: {}'.format(LOWWEIGHTLOGZ.sum()))
+        TRIALS = 30
+        LOWWEIGHTLOGZ, _ = low_weight_logical(KERZ, PUNCTLOGX, TRIALS)
+        WEIGHT = LOWWEIGHTLOGZ.sum()
+        KP = len(REALLOGX)
+        NP = PUNCTMATX.shape[1]
+        GAMMA = np.log(NP/KP)/np.log(WEIGHT)
+        if GAMMA < BESTGAMMA:
+            BESTGAMMA = GAMMA
+            BESTK = K
+            BESTWEIGHT = WEIGHT
+            BESTPERM = PERM
+            print('permutation: {}'.format(PERM))
+            print('K={}'.format(K))
+            print(PERMSTD)
+            print('MX.shape = {}'.format(MX.shape))
+            print('PUNCTMATX.shape = {}'.format(PUNCTMATX.shape))
+            print('PUNCTSTABX.shape = {}'.format(PUNCTSTABX.shape))
+            print('PUNCTLOGX.shape = {}'.format(PUNCTLOGX.shape))
+            print('PUNCTSTABZ.shape = {}'.format(PUNCTSTABZ.shape))
+            print('KERZ.shape = {}'.format(KERZ.shape))
+            print('KERX.shape = {}'.format(KERX.shape))
+            print('REALLOGX len = {}'.format(KP))
+            print('PUNCTLOGZ len = {}'.format(len(PUNCTLOGZ)))
+            print('Low weight logical of weight: {}'.format(WEIGHT))
+            print('gamma = {}'.format(GAMMA))
