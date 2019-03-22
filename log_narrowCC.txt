@@ -47,3 +47,10 @@ Narrow pin code 2-4-2-4-2-4-2
 qubits - xchecks - zchecks = logicals: 
             1024 - 168 - 2064 = -1208
 This is a valid CSS code: True
+Narrow pin code 3-3-2-2-2-3-3
+{48, 32, 72}
+{8, 12}
+[1, 3, 3, 2, 2, 2, 3, 3, 1]
+qubits - xchecks - zchecks = logicals: 
+            288 - 132 - 1140 = -984
+This is a valid CSS code: True
