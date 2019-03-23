@@ -89,3 +89,17 @@ Narrow pin code 4-4-2-2-2-4-4
 qubits - xchecks - zchecks = logicals: 
             512 - 188 - 1920 = -1596
 This is a valid CSS code: True
+Narrow pin code 5-5-2-2-2-5-5
+{80, 32, 200}
+{8, 20}
+[1, 5, 5, 2, 2, 2, 5, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+            800 - 252 - 2900 = -2352
+This is a valid CSS code: True
+Narrow pin code 2-2-2-2-2-5-5
+{80, 32}
+{8, 20}
+[1, 2, 2, 2, 2, 2, 5, 5, 1]
+qubits - xchecks - zchecks = logicals: 
+            320 - 150 - 1280 = -1110
+This is a valid CSS code: True
