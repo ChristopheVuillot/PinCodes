@@ -8,12 +8,12 @@ from QuantumCodeAnalysis.puncturing import puncture
 from QuantumCodeConstruction.utils import readsparsematrix
 
 
-MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_Z.sms').todense()
+# MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_X.sms').todense()
+# MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_Z.sms').todense()
-# MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_X.sms').todense()
-# MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_4222224_dim6_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_4222224_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
 # MZ = readsparsematrix('PCMatrices/535_3420_ZCOS.sms').todense()
 
@@ -24,8 +24,8 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-BESTGAMMA = 3
-for k in range(22, 81):
+BESTGAMMA = 4
+for k in range(1, 81):
     gc.collect()
     for _ in range(300):
         PERM = np.random.permutation(NQ)
@@ -38,15 +38,15 @@ for k in range(22, 81):
 
         PUNCTSTABZ = fl.kernel(PUNCTMATX.transpose())
         KERZ = fl.kernel(PUNCTSTABX.transpose())
-        KERX = fl.kernel(PUNCTSTABZ.transpose())
+        # KERX = fl.kernel(PUNCTSTABZ.transpose())
 
         PUNCTLOGZ, _ = fl.quotient_basis(KERZ, PUNCTSTABZ)
-        REALLOGX, _ = fl.quotient_basis(KERX, PUNCTSTABX)
+        # REALLOGX, _ = fl.quotient_basis(KERX, PUNCTSTABX)
 
         TRIALS = 30
         LOWWEIGHTLOGZ, _ = low_weight_logical(KERZ, PUNCTLOGX, TRIALS)
         WEIGHT = LOWWEIGHTLOGZ.sum()
-        KP = len(REALLOGX)
+        KP = len(PUNCTLOGZ)
         NP = PUNCTMATX.shape[1]
         if WEIGHT > 1:
             GAMMA = np.log(NP/KP)/np.log(WEIGHT)
@@ -75,8 +75,8 @@ for k in range(22, 81):
             print('PUNCTSTABX.shape = {}'.format(PUNCTSTABX.shape))
             print('PUNCTLOGX.shape = {}'.format(PUNCTLOGX.shape))
             print('PUNCTSTABZ.shape = {}'.format(PUNCTSTABZ.shape))
-            print('KERZ.shape = {}'.format(KERZ.shape))
-            print('KERX.shape = {}'.format(KERX.shape))
+            # print('KERZ.shape = {}'.format(KERZ.shape))
+            # print('KERX.shape = {}'.format(KERX.shape))
             print('REALLOGX len = {}'.format(KP))
             print('PUNCTLOGZ len = {}'.format(len(PUNCTLOGZ)))
             print('Low weight logical of weight: {}'.format(WEIGHT))
