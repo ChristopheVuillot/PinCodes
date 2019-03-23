@@ -58,7 +58,6 @@ class GrPoset:
                 self.__boundary_element__[0] = True
             last = self.length - 2
             sumalllast = np.sum(self.transitions[last], axis=1) % 2
-            print(sumalllast)
             if not sum(abs(sumalllast)) == 0:
                 print("Adding boundary element !")
                 self.transitions[last] = np.transpose(np.vstack([np.transpose(self.transitions[last]), sumalllast]))
@@ -83,11 +82,9 @@ class GrPoset:
         """ get the list of the flags of the poset
         memorizes the list for latter calls
         """
-        print(self.levelsizes)
         if not self.__flags__:
             flag_list = [list(range(self.levelsizes[0]))]
             for k in range(1, self.length):
-                print(k)
                 new_flag_list = []
                 for flag in flag_list:
                     new_flag_list.extend([flag+[a] for a in self.neighbours_down(k-1, flag[k-1])])
@@ -164,7 +161,6 @@ def pincode(poset, xind, zind):
     pinned sets
     """
     poset.makecomplete()
-    print('complete!')
     assert (xind + zind) < (poset.length - 2)
     flags = poset.get_flags()
     # print(flags)
