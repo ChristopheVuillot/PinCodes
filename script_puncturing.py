@@ -11,8 +11,8 @@ from QuantumCodeConstruction.utils import readsparsematrix
 # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_429_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_Z.sms').todense()
-MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222233_dim6_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222233_dim6_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
 # MZ = readsparsematrix('PCMatrices/535_3420_ZCOS.sms').todense()
 
@@ -23,8 +23,8 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-BESTGAMMA = 3
-for k in range(1, 34):
+BESTGAMMA = 1.72
+for k in range(20, 51):
     for _ in range(300):
         PERM = np.random.permutation(NQ)
         K = k
@@ -78,4 +78,4 @@ for k in range(1, 34):
             print('REALLOGX len = {}'.format(KP))
             print('PUNCTLOGZ len = {}'.format(len(PUNCTLOGZ)))
             print('Low weight logical of weight: {}'.format(WEIGHT))
-            print('gamma = {}'.format(GAMMA))
+            print('gamma = {}'.format(GAMMA), flush=True)
