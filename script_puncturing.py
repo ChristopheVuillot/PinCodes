@@ -8,12 +8,12 @@ from QuantumCodeAnalysis.puncturing import puncture
 from QuantumCodeConstruction.utils import readsparsematrix
 
 
-# MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_429_X.sms').todense()
-# MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_429_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_Z.sms').todense()
-MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_Z.sms').todense()
+# MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_X.sms').todense()
+# MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_3322233_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
 # MZ = readsparsematrix('PCMatrices/535_3420_ZCOS.sms').todense()
 
@@ -24,8 +24,8 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-BESTGAMMA = 1.73
-for k in range(16, 34):
+BESTGAMMA = 3
+for k in range(22, 81):
     gc.collect()
     for _ in range(300):
         PERM = np.random.permutation(NQ)
