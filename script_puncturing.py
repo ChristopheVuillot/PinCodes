@@ -1,5 +1,6 @@
 """script for puncturing codes
 """
+import gc
 import numpy as np
 import flinalg as fl
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical
@@ -23,8 +24,9 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-BESTGAMMA = 3
-for k in range(1, 34):
+BESTGAMMA = 1.73
+for k in range(16, 34):
+    gc.collect()
     for _ in range(300):
         PERM = np.random.permutation(NQ)
         K = k
@@ -78,4 +80,4 @@ for k in range(1, 34):
             print('REALLOGX len = {}'.format(KP))
             print('PUNCTLOGZ len = {}'.format(len(PUNCTLOGZ)))
             print('Low weight logical of weight: {}'.format(WEIGHT))
-            print('gamma = {}'.format(GAMMA))
+            print('gamma = {}'.format(GAMMA), flush=True)
