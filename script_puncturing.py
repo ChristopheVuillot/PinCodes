@@ -1,6 +1,6 @@
 """script for puncturing codes
 """
-import gc
+# import gc
 import numpy as np
 import flinalg as fl
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical
@@ -12,8 +12,8 @@ from QuantumCodeConstruction.utils import readsparsematrix
 # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_Z.sms').todense()
-MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_4222224_dim6_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_4222224_dim6_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
 # MZ = readsparsematrix('PCMatrices/535_3420_ZCOS.sms').todense()
 
@@ -24,10 +24,10 @@ RZ, _ = MZ.shape
 # MX = np.array(MX, dtype='uint8')
 # SX = fl.row_reduce_transform(MX)
 
-BESTGAMMA = 4
-for k in range(1, 81):
-    gc.collect()
-    for _ in range(300):
+BESTGAMMA = 1.77
+for k in range(21, 22):
+    print('trying {} punctures:'.format(k), flush=True)
+    for _ in range(2500):
         PERM = np.random.permutation(NQ)
         K = k
 
