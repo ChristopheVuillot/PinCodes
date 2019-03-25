@@ -124,3 +124,10 @@ Narrow pin code 2-4-4-2-2-2-2
 qubits - xchecks - zchecks = logicals: 
             256 - 128 - 1040 = -912
 This is a valid CSS code: True
+Narrow pin code 2-2-2-2-2-4-sep-4
+{64, 32}
+{16, 8}
+[1, 2, 2, 2, 2, 2, 4, 4, 1]
+qubits - xchecks - zchecks = logicals: 
+            256 - 128 - 1040 = -912
+This is a valid CSS code: True
