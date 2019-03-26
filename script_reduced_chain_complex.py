@@ -6,8 +6,8 @@ from QuantumCodeConstruction.utils import readsparsematrix
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
 
 
-# TRANSITIONS = [readsparsematrix('BoundaryMaps/systematichp/systematic33_dim3_transpose_7_{}.sms'.format(j)).todense() for j in range(3)]
-TRANSITIONS = [readsparsematrix('BoundaryMaps/535_6840_{}.npz'.format(j)).todense().transpose() for j in range(1, 4)]
+TRANSITIONS = [readsparsematrix('BoundaryMaps/systematichp/systematic33_dim3_transpose_15_{}.sms'.format(j)).todense() for j in range(3)]
+# TRANSITIONS = [readsparsematrix('BoundaryMaps/535_6840_{}.npz'.format(j)).todense().transpose() for j in range(1, 4)]
 POSET = GrPoset(TRANSITIONS, iscomplete=False)
 PCX, PCZ = pincode(POSET, 1, 2)
 (LX, _), (LZ, _) = logicals(PCX.todense(), PCZ.todense())

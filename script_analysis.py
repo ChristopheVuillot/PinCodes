@@ -6,15 +6,17 @@ from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
 from QuantumCodeConstruction.utils import readsparsematrix
 
 goodones = []
-for SEED in range(1000, 1001):
-    if SEED == 1097:
-        continue
-    MX = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_X.sms'.format(SEED)).todense()
-    MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
-    MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
-    MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
+for SEED in range(1, 11): #2**9-1):
+    # if SEED == 1097:
+    #     continue
+    MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_X.sms'.format(SEED)).todense()
+    MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_Z.sms'.format(SEED)).todense()
+    # MX = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_X.sms'.format(SEED)).todense()
+    # MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
+    # MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
+    # MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
 
-    print('Properties of the code randomhp_{}:'.format(SEED))
+    print('Properties of the code systematic33_dim3_transpose_{}:'.format(SEED))
     print('X-check matrix is {}x{}'.format(MX.shape[0], MX.shape[1]))
     print('Z-check matrix is {}x{}'.format(MZ.shape[0], MZ.shape[1]))
 
@@ -36,8 +38,8 @@ for SEED in range(1000, 1001):
 
     print('There are {} logical qubits'.format(LX.shape[0]))
 
-    LOWX, PERMX = low_weight_logical(GX, LZ, 1)
-    LOWZ, PERMZ = low_weight_logical(GZ, LX, 1)
+    LOWX, PERMX = low_weight_logical(GX, LZ, 4)
+    LOWZ, PERMZ = low_weight_logical(GZ, LX, 4)
 
     print('There is a X-logical operator of weight {}'.format(LOWX.sum()))
     print('There is a Z-logical operator of weight {}'.format(LOWZ.sum()))
@@ -45,28 +47,28 @@ for SEED in range(1000, 1001):
     print('Check correct x log: {}'.format((np.dot(MZ[:, PERMX], LOWX) % 2).sum() == 0))
     print('Check correct z log: {}'.format((np.dot(MX[:, PERMZ], LOWZ) % 2).sum() == 0))
 
-    print('Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|')
-    K, N = LX.shape
-    NSX, _ = MX.shape
-    TRICOND = True
-    wrong = []
-    for ilog1, ilog2 in combinations(range(K), 2):
-        for istab in range(NSX):
-            TEST = np.multiply(LX[ilog1, :],
-                               np.multiply(LX[ilog2, :],
-                                           MX[istab, :])).sum() % 2 == 0
-            TRICOND = TRICOND and TEST
-            if not TEST:
-                wrong.append(((ilog1, ilog2), istab))
-            if wrong:
-                break
-        if wrong:
-            break
-    print('Triorthogonal: {}'.format(TRICOND))
-    if TRICOND:
-        goodones.append(SEED)
-    print(len(wrong))
-print(goodones)
+    # print('Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|')
+    # K, N = LX.shape
+    # NSX, _ = MX.shape
+    # TRICOND = True
+    # wrong = []
+    # for ilog1, ilog2 in combinations(range(K), 2):
+    #     for istab in range(NSX):
+    #         TEST = np.multiply(LX[ilog1, :],
+    #                            np.multiply(LX[ilog2, :],
+    #                                        MX[istab, :])).sum() % 2 == 0
+    #         TRICOND = TRICOND and TEST
+    #         if not TEST:
+    #             wrong.append(((ilog1, ilog2), istab))
+    #         if wrong:
+    #             break
+    #     if wrong:
+    #         break
+    # print('Triorthogonal: {}'.format(TRICOND))
+    # if TRICOND:
+    #     goodones.append(SEED)
+    # print(len(wrong))
+# print(goodones)
     # print(LX[wrong[0][0][0], :])
     # print(LX[wrong[0][0][1], :])
     # print(MX[wrong[0][1], :])
