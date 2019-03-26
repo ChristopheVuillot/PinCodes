@@ -18,6 +18,7 @@ class GrPoset:
                           + [np.size(transitions[self.length-2], 1)]
         self.__flags__ = None
         self.__all_pinned_sets__ = [None for _ in range(self.length)]
+        self.__all_pinned_sets_with_bound__ = [None for _ in range(self.length)]
         self.__boundary_element__ = [False for _ in range(self.length)]
         self.__all_neighbours_down__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
         self.__all_neighbours_up__ = [[None for _ in range(self.levelsizes[j])] for j in range(self.length)]
@@ -63,14 +64,9 @@ class GrPoset:
                 self.transitions[last] = np.transpose(np.vstack([np.transpose(self.transitions[last]), sumalllast]))
                 self.levelsizes[last + 1] += 1
                 self.__boundary_element__[last + 1] = True
-            self.transitions = [np.ones([1, self.levelsizes[0]], dtype='int')] \
-                               + self.transitions \
-                               + [np.ones([self.levelsizes[last+1], 1], dtype='int')]
-            self.levelsizes = [1] + self.levelsizes + [1]
-            self.__boundary_element__ = [True] + self.__boundary_element__ + [True]
-            self.length += 2
             self.iscomplete = True
             self.__all_pinned_sets__ = [None for j in range(self.length)]
+            self.__all_pinned_sets_with_bound__ = [None for j in range(self.length)]
             self.__flags__ = None
             self.__all_neighbours_down__ = [[None for _ in range(self.levelsizes[j])]
                                             for j in range(self.length)]
@@ -83,7 +79,7 @@ class GrPoset:
         memorizes the list for latter calls
         """
         if not self.__flags__:
-            flag_list = [list(range(self.levelsizes[0]))]
+            flag_list = [[a] for a in range(self.levelsizes[0])]
             for k in range(1, self.length):
                 new_flag_list = []
                 for flag in flag_list:
@@ -99,16 +95,32 @@ class GrPoset:
         """
         if not self.__all_pinned_sets__[numberpins]:
             types = combinations(range(0, self.length), numberpins)
-            pinned_sets = []
+            pinned_sets = {}
             for typ in types:
                 pinss = product(*[list(range(self.levelsizes[typ[i]] - self.__boundary_element__[typ[i]])) for i in range(numberpins)])
                 for pins in pinss:
                     pset = self.pinned_set(list(typ), list(pins))
-                    # pset = pinned_set_simple(self.get_flags(), list(typ), list(pins))
                     if not pset == []:
-                        pinned_sets.append(pset)
+                        pinned_sets.setdefault(typ, []).append(pset)
             self.__all_pinned_sets__[numberpins] = pinned_sets
         return self.__all_pinned_sets__[numberpins]
+
+
+    def get_all_pinned_sets_with_bound(self, numberpins):
+        """ get the list of the pinned sets with numberpins pins of the poset
+        memorizes it for latter calls
+        """
+        if not self.__all_pinned_sets_with_bound__[numberpins]:
+            types = combinations(range(0, self.length), numberpins)
+            pinned_sets = {}
+            for typ in types:
+                pinss = product(*[list(range(self.levelsizes[typ[i]])) for i in range(numberpins)])
+                for pins in pinss:
+                    pset = self.pinned_set(list(typ), list(pins))
+                    if not pset == []:
+                        pinned_sets.setdefault(typ, []).append(pset)
+            self.__all_pinned_sets_with_bound__[numberpins] = pinned_sets
+        return self.__all_pinned_sets_with_bound__[numberpins]
 
 
     def pinned_set(self, typ, pins):
@@ -161,11 +173,12 @@ def pincode(poset, xind, zind):
     pinned sets
     """
     poset.makecomplete()
-    assert (xind + zind) < (poset.length - 2)
+    # print(poset.transitions)
+    assert (xind + zind) < poset.length
     flags = poset.get_flags()
     # print(flags)
-    xpsets = poset.get_all_pinned_sets(xind)
-    zpsets = poset.get_all_pinned_sets(zind)
+    xpsets = sum([ps for ps in poset.get_all_pinned_sets(xind).values()], [])
+    zpsets = sum([ps for ps in poset.get_all_pinned_sets(zind).values()], [])
     nqubit = len(flags)
     nxchecks = len(xpsets)
     nzchecks = len(zpsets)
@@ -178,3 +191,32 @@ def pincode(poset, xind, zind):
         for flag in pset:
             matz[checkindex, flags.index(flag)] = 1
     return (matx, matz)
+
+
+def reduced_chain_complex(poset, typ):
+    """build the reduced chain complex according to type typ
+    assumes the code is x=|typ| z = D-x.
+    """
+    assert poset.iscomplete
+    typ_length = len(typ)
+    compl_typ = tuple(set(range(poset.length)) - set(typ))
+    compl_length = len(compl_typ)
+    reduced_qubits = poset.get_all_pinned_sets_with_bound(compl_length)[compl_typ]
+    typ_checks_ps = poset.get_all_pinned_sets(typ_length)[typ]
+    co_typ_length = poset.length - 1 - typ_length
+    co_checks_ps = []
+    for co_typ in combinations(compl_typ, co_typ_length):
+        co_checks_ps += poset.get_all_pinned_sets(co_typ_length)[co_typ]
+    nqubits = len(reduced_qubits)
+    nxchecks = len(typ_checks_ps)
+    nzchecks = len(co_checks_ps)
+    xmat = np.zeros((nxchecks, nqubits), dtype='uint8')
+    zmat = np.zeros((nzchecks, nqubits), dtype='uint8')
+    for j, reduced_q in enumerate(reduced_qubits):
+        for k, co_check in enumerate(co_checks_ps):
+            if all(flag in co_check for flag in reduced_q):
+                zmat[k, j] = 1
+        for k, typ_check in enumerate(typ_checks_ps):
+            if any(flag in typ_check for flag in reduced_q):
+                xmat[k, j] = 1
+    return xmat, zmat, reduced_qubits
