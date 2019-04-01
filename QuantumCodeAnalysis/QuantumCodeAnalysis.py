@@ -18,12 +18,18 @@ def low_weight_logical(gen1, gen2, trials):
     min_d = col1
     min_logical = None
     total_permutation = np.arange(col1)
+    # print(total_permutation)
     for _ in range(trials):
         perm = np.random.permutation(col1)
+        # print(perm)
         uig1 = uig1[:, perm]
         _, permstdf = fl.standard_form(uig1)
+        # print(permstdf)
         uig2 = uig2[:, perm][:, permstdf]
         total_permutation = total_permutation[perm][permstdf]
+        print(np.array_equal(gen2[:, total_permutation], uig2))
+        print(np.dot(gen1[:, total_permutation], uig2.transpose()).transpose())
+        # print(total_permutation)
         for vec in uig1:
             ham_vec = sum(vec % 2)
             if ham_vec < min_d:

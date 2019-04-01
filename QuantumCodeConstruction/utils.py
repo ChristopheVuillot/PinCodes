@@ -37,7 +37,7 @@ def readsparsematrix(filename):
                 linelist = line.strip().split(' ')
                 row = int(linelist[0]) - 1
                 col = int(linelist[1]) - 1
-                val = int(linelist[2])
+                val = int(float(linelist[2]))
                 if row >= 0 and col >= 0:
                     matrix[row, col] += val
     elif ext == 'npz':
