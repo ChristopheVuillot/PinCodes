@@ -1,0 +1,1288 @@
+Properties of the code randomhp_1000:
+X-check matrix is 100x668
+Z-check matrix is 593x668
+X-checks have weigths: {32, 8, 12, 48, 16, 80, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 78 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1001:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1002:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1003:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1004:
+X-check matrix is 125x696
+Z-check matrix is 579x696
+X-checks have weigths: {32, 8, 12, 16, 48, 20, 24}
+Z-checks have weigths: {8, 10, 4, 6}
+There are 90 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1005:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1006:
+X-check matrix is 75x544
+Z-check matrix is 420x544
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 20, 52, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 105 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1007:
+X-check matrix is 125x968
+Z-check matrix is 766x968
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 20, 52, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 181 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1008:
+X-check matrix is 125x1188
+Z-check matrix is 865x1188
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 295 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1009:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1010:
+X-check matrix is 125x1408
+Z-check matrix is 964x1408
+X-checks have weigths: {96, 132, 40, 12, 16, 80, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 410 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1011:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1012:
+X-check matrix is 125x1036
+Z-check matrix is 865x1036
+X-checks have weigths: {32, 40, 8, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 184 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1013:
+X-check matrix is 125x1188
+Z-check matrix is 865x1188
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 52, 20, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 295 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1014:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1015:
+X-check matrix is 125x884
+Z-check matrix is 667x884
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 173 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1016:
+X-check matrix is 50x300
+Z-check matrix is 247x300
+X-checks have weigths: {32, 8, 12, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 38 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1017:
+X-check matrix is 40x264
+Z-check matrix is 224x264
+X-checks have weigths: {32, 12, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 33 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1018:
+X-check matrix is 125x1408
+Z-check matrix is 964x1408
+X-checks have weigths: {96, 132, 40, 12, 16, 80, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 410 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1019:
+X-check matrix is 100x848
+Z-check matrix is 692x848
+X-checks have weigths: {32, 12, 80, 16, 20, 52, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 154 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1020:
+X-check matrix is 100x848
+Z-check matrix is 692x848
+X-checks have weigths: {32, 12, 16, 80, 20, 52, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 154 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1021:
+X-check matrix is 75x584
+Z-check matrix is 475x584
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 48, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 108 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1022:
+X-check matrix is 125x832
+Z-check matrix is 766x832
+X-checks have weigths: {32, 8, 12, 48, 16, 80, 20, 52, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 96 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1023:
+X-check matrix is 125x1240
+Z-check matrix is 964x1240
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 275 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1024:
+X-check matrix is 125x832
+Z-check matrix is 766x832
+X-checks have weigths: {32, 8, 12, 48, 16, 80, 20, 52, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 96 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1025:
+X-check matrix is 125x1240
+Z-check matrix is 964x1240
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 275 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1026:
+X-check matrix is 125x968
+Z-check matrix is 766x968
+X-checks have weigths: {32, 8, 40, 12, 16, 80, 20, 52, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 181 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1027:
+X-check matrix is 125x968
+Z-check matrix is 766x968
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 20, 52, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 181 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1028:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1029:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1030:
+X-check matrix is 125x1188
+Z-check matrix is 865x1188
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 295 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1031:
+X-check matrix is 125x1104
+Z-check matrix is 766x1104
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 286 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1032:
+X-check matrix is 100x972
+Z-check matrix is 747x972
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 216 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1033:
+X-check matrix is 100x972
+Z-check matrix is 747x972
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 216 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1034:
+X-check matrix is 80x472
+Z-check matrix is 382x472
+X-checks have weigths: {32, 8, 12, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 60 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1035:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1036:
+X-check matrix is 100x668
+Z-check matrix is 593x668
+X-checks have weigths: {32, 8, 12, 48, 16, 80, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 78 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1037:
+X-check matrix is 100x612
+Z-check matrix is 516x612
+X-checks have weigths: {32, 8, 12, 48, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 76 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1038:
+X-check matrix is 50x436
+Z-check matrix is 313x436
+X-checks have weigths: {40, 12, 52, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 104 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1039:
+X-check matrix is 100x736
+Z-check matrix is 560x736
+X-checks have weigths: {32, 40, 8, 12, 16, 52, 20, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 142 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1040:
+X-check matrix is 80x416
+Z-check matrix is 316x416
+X-checks have weigths: {32, 8, 12, 16, 20}
+Z-checks have weigths: {8, 10, 4, 6}
+There are 56 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1041:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1042:
+X-check matrix is 125x1240
+Z-check matrix is 964x1240
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 275 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1043:
+X-check matrix is 125x952
+Z-check matrix is 755x952
+X-checks have weigths: {32, 40, 8, 12, 48, 16, 80, 52, 20, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 179 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1044:
+X-check matrix is 100x736
+Z-check matrix is 560x736
+X-checks have weigths: {32, 40, 8, 12, 16, 52, 20, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 142 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1045:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1046:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1047:
+X-check matrix is 50x368
+Z-check matrix is 280x368
+X-checks have weigths: {32, 40, 8, 12, 16, 52, 20, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 71 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1048:
+X-check matrix is 100x952
+Z-check matrix is 670x952
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 80, 16, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 255 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1049:
+X-check matrix is 125x1104
+Z-check matrix is 766x1104
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 16, 80, 52, 20, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 286 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1050:
+X-check matrix is 100x668
+Z-check matrix is 593x668
+X-checks have weigths: {32, 8, 12, 48, 16, 80, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 78 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1051:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1052:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1053:
+X-check matrix is 125x1188
+Z-check matrix is 865x1188
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 52, 20, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 295 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1054:
+X-check matrix is 80x528
+Z-check matrix is 459x528
+X-checks have weigths: {32, 8, 12, 16, 48, 80, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 62 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1055:
+X-check matrix is 125x1036
+Z-check matrix is 865x1036
+X-checks have weigths: {32, 40, 8, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 184 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1056:
+X-check matrix is 125x952
+Z-check matrix is 755x952
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 48, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 179 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1057:
+X-check matrix is 75x704
+Z-check matrix is 530x704
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 163 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1058:
+X-check matrix is 100x680
+Z-check matrix is 604x680
+X-checks have weigths: {32, 12, 48, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 85 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1059:
+X-check matrix is 125x1240
+Z-check matrix is 964x1240
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 275 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1060:
+X-check matrix is 125x1408
+Z-check matrix is 964x1408
+X-checks have weigths: {96, 132, 40, 12, 16, 80, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 410 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1061:
+X-check matrix is 75x584
+Z-check matrix is 475x584
+X-checks have weigths: {32, 8, 40, 12, 80, 16, 48, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 108 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1062:
+X-check matrix is 125x1188
+Z-check matrix is 865x1188
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 295 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1063:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1064:
+X-check matrix is 100x544
+Z-check matrix is 428x544
+X-checks have weigths: {32, 8, 12, 16, 20, 24}
+Z-checks have weigths: {8, 10, 4, 6}
+There are 72 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1065:
+X-check matrix is 125x1036
+Z-check matrix is 865x1036
+X-checks have weigths: {32, 40, 8, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 184 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1066:
+X-check matrix is 50x368
+Z-check matrix is 280x368
+X-checks have weigths: {32, 40, 8, 12, 16, 52, 20, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 71 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1067:
+X-check matrix is 125x1036
+Z-check matrix is 865x1036
+X-checks have weigths: {32, 8, 40, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 184 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1068:
+X-check matrix is 125x952
+Z-check matrix is 755x952
+X-checks have weigths: {32, 40, 8, 12, 16, 48, 80, 52, 20, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 179 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1069:
+X-check matrix is 100x1072
+Z-check matrix is 868x1072
+X-checks have weigths: {80, 16, 56, 28}
+Z-checks have weigths: {4, 6, 8, 14, 16}
+There are 231 logical qubits
+There is a X-logical operator of weight 12
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1070:
+X-check matrix is 40x272
+Z-check matrix is 191x272
+X-checks have weigths: {32, 40, 8, 12, 20, 52, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 60 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1071:
+X-check matrix is 125x1140
+Z-check matrix is 843x1140
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 267 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1072:
+X-check matrix is 100x884
+Z-check matrix is 593x884
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 52, 20, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 246 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1073:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1074:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1075:
+X-check matrix is 125x1104
+Z-check matrix is 766x1104
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 16, 80, 52, 20, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 286 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1076:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 16, 80, 20, 52, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1077:
+X-check matrix is 125x1776
+Z-check matrix is 1206x1776
+X-checks have weigths: {96, 132, 16, 80, 56, 28}
+Z-checks have weigths: {4, 6, 8, 14, 16, 24}
+There are 569 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1078:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 20, 52, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1079:
+X-check matrix is 125x1140
+Z-check matrix is 843x1140
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 267 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1080:
+X-check matrix is 100x820
+Z-check matrix is 670x820
+X-checks have weigths: {32, 40, 8, 12, 48, 16, 80, 52, 20, 56, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 147 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1081:
+X-check matrix is 100x680
+Z-check matrix is 604x680
+X-checks have weigths: {32, 12, 48, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 85 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1082:
+X-check matrix is 100x736
+Z-check matrix is 560x736
+X-checks have weigths: {32, 40, 8, 12, 16, 52, 20, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 142 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1083:
+X-check matrix is 100x820
+Z-check matrix is 670x820
+X-checks have weigths: {32, 40, 8, 12, 48, 16, 80, 52, 20, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 147 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1084:
+X-check matrix is 125x1104
+Z-check matrix is 766x1104
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 16, 80, 52, 20, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 286 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1085:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1086:
+X-check matrix is 75x464
+Z-check matrix is 420x464
+X-checks have weigths: {32, 8, 12, 48, 16, 20, 52, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 56 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1087:
+X-check matrix is 40x264
+Z-check matrix is 224x264
+X-checks have weigths: {32, 12, 16, 20, 52, 24, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 33 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1088:
+X-check matrix is 125x1036
+Z-check matrix is 865x1036
+X-checks have weigths: {32, 8, 40, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 184 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1089:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 80, 16, 48, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1090:
+X-check matrix is 125x1508
+Z-check matrix is 1085x1508
+X-checks have weigths: {96, 132, 40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 419 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1091:
+X-check matrix is 125x1240
+Z-check matrix is 964x1240
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 275 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1092:
+X-check matrix is 100x764
+Z-check matrix is 593x764
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 20, 52, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 144 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1093:
+X-check matrix is 100x736
+Z-check matrix is 692x736
+X-checks have weigths: {32, 12, 48, 16, 80, 20, 52, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14}
+There are 84 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1094:
+X-check matrix is 125x884
+Z-check matrix is 667x884
+X-checks have weigths: {32, 40, 8, 12, 80, 16, 20, 52, 24, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 173 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1095:
+X-check matrix is 125x1240
+Z-check matrix is 964x1240
+X-checks have weigths: {40, 12, 80, 16, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16}
+There are 275 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1096:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {32, 96, 132, 40, 8, 12, 48, 16, 80, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1098:
+X-check matrix is 125x1272
+Z-check matrix is 975x1272
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 80, 48, 16, 20, 52, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 301 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+Properties of the code randomhp_1099:
+X-check matrix is 125x1104
+Z-check matrix is 766x1104
+X-checks have weigths: {96, 32, 132, 40, 8, 12, 16, 80, 52, 20, 56, 28}
+Z-checks have weigths: {4, 6, 8, 10, 14, 16, 24}
+There are 286 logical qubits
+There is a X-logical operator of weight 8
+There is a Z-logical operator of weight 4
+Check correct x log: True
+Check correct z log: True
+Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|
+Triorthogonal: False
+1
+[]
