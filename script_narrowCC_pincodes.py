@@ -7,8 +7,8 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 if __name__ == "__main__":
     D = 6
-    X = int(D/3)
-    Z = D-X
+    X = int(D / 3)
+    Z = D - X
     SIZE = 2
     # print('Generating narrow Pin Code with D={}, x={}, z={}, q={}'.format(D, X, Z, SIZE))
     # TRANSITIONS = [np.ones((SIZE, SIZE), dtype='uint8') for _ in range(D)]

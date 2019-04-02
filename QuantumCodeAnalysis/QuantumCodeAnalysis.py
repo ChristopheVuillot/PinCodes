@@ -5,6 +5,7 @@ import numpy as np
 # from sage.all import GF, matrix, vector, Permuations, copy, LinearCode
 import flinalg as fl
 
+
 def low_weight_logical(gen1, gen2, trials):
     """
     Monte Carlo algorithm which tries to find the lowest weight code word of G1

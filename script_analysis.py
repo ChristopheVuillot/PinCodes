@@ -1,12 +1,12 @@
 """Script to analyse codes
 """
-from itertools import combinations
+# from itertools import combinations
 import numpy as np
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
 from QuantumCodeConstruction.utils import readsparsematrix
 
 goodones = []
-for SEED in range(1, 11): #2**9-1):
+for SEED in range(1, 11):  # 2**9-1):
     # if SEED == 1097:
     #     continue
     MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_X.sms'.format(SEED)).todense()

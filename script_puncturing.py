@@ -49,7 +49,7 @@ for k in range(1, 101):
         KP = len(PUNCTLOGZ)
         NP = PUNCTMATX.shape[1]
         if WEIGHT > 1:
-            GAMMA = np.log(NP/KP)/np.log(WEIGHT)
+            GAMMA = np.log(NP / KP) / np.log(WEIGHT)
         else:
             GAMMA = 10
         if GAMMA < BESTGAMMA:
@@ -58,7 +58,7 @@ for k in range(1, 101):
             if WEIGHT > LOWWEIGHTLOGZ.sum():
                 WEIGHT = LOWWEIGHTLOGZ.sum()
             if WEIGHT > 1:
-                GAMMA = np.log(NP/KP)/np.log(WEIGHT)
+                GAMMA = np.log(NP / KP) / np.log(WEIGHT)
             else:
                 GAMMA = 10
 

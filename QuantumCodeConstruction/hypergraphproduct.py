@@ -12,24 +12,24 @@ def systematicclassco(checks, bits):
     after correctly accounting that the all 0 matrix is missing at the begining of the list.
     use with care.
     """
-    nbits = checks*bits
+    nbits = checks * bits
     nmatrices = 2**nbits
     hmatlist = [np.zeros((checks, bits), dtype='uint8') for _ in range(1, nmatrices)]
     for j in range(1, nmatrices):
         bitstring = np.binary_repr(j, width=nbits)
         for row in range(checks):
             for col in range(bits):
-                hmatlist[j-1][row, col] = int(bitstring[row*bits + col])
+                hmatlist[j - 1][row, col] = int(bitstring[row * bits + col])
         emptyrows = []
         emptycolumns = []
         for k in range(checks):
-            if not hmatlist[j-1][k].any():
+            if not hmatlist[j - 1][k].any():
                 emptyrows.append(k)
         for k in range(bits):
-            if not hmatlist[j-1][:, k].any():
+            if not hmatlist[j - 1][:, k].any():
                 emptycolumns.append(k)
-        hmatlist[j-1] = np.delete(hmatlist[j-1], emptyrows, 0)
-        hmatlist[j-1] = np.delete(hmatlist[j-1], emptycolumns, 1)
+        hmatlist[j - 1] = np.delete(hmatlist[j - 1], emptyrows, 0)
+        hmatlist[j - 1] = np.delete(hmatlist[j - 1], emptycolumns, 1)
     return hmatlist
 
 
@@ -40,7 +40,7 @@ def randomclassco(checks, bits, weights):
     hmat = np.zeros((checks, bits), dtype='int')
     for i in range(0, checks):
         for j in range(0, bits):
-            if rd.random() < weights/bits:
+            if rd.random() < weights / bits:
                 hmat[i, j] = 1
     emptyrows = []
     emptycolumns = []
@@ -89,11 +89,11 @@ def hypergraphproductlist(hmatlist, hmatnew):
     for j in range(1, length):
         transitionlist.append(np.bmat([[np.kron(np.identity(checks), hmatlist[j]),
                                         np.kron(hmatnew, np.identity(checkbitlist[j][0]))],
-                                       [np.zeros((bits*checkbitlist[j-1][0], checks*checkbitlist[j][1]), dtype='int'),
-                                        np.kron(np.identity(bits), hmatlist[j-1])]]))
+                                       [np.zeros((bits * checkbitlist[j - 1][0], checks * checkbitlist[j][1]), dtype='int'),
+                                        np.kron(np.identity(bits), hmatlist[j - 1])]]))
 
-    transitionlist.append(np.bmat([[np.kron(hmatnew, np.identity(checkbitlist[length-1][1]))],
-                                   [np.kron(np.identity(bits), hmatlist[length-1])]]))
+    transitionlist.append(np.bmat([[np.kron(hmatnew, np.identity(checkbitlist[length - 1][1]))],
+                                   [np.kron(np.identity(bits), hmatlist[length - 1])]]))
     return transitionlist
 
 

@@ -16,6 +16,7 @@ def readcosetfile(filename):
     with open(filename, 'r') as cosetfile:
         return [[int(i) for i in co.split(',')] for co in cosetfile.readlines()]
 
+
 if __name__ == "__main__":
     # TRANSITIONS = hp.randomhypergraphproductlist(4, 5, 2, 2, seed=None)
     #  TRANSTEST = [[[0, 1, 1, 1],
@@ -46,7 +47,7 @@ if __name__ == "__main__":
     #                                  PTCHECKSX,
     #                                  PTCHECKSZ,
     #                                  PTQUBITS - PTCHECKSX - PTCHECKSZ))
-    TRANSITIONS = [readsparsematrix('BoundaryMaps/535_531360_'+str(j)+'.npz').todense()
+    TRANSITIONS = [readsparsematrix('BoundaryMaps/535_531360_' + str(j) + '.npz').todense()
                    for j in range(3, 0, -1)]
     POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
     PCX, PCZ = pinco.pincode(POSETHP, 1, 2)

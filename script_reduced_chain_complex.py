@@ -1,15 +1,17 @@
 """script to test reduced chain complexes of pin codes
 """
-import numpy as np
+# import numpy as np
 from QuantumCodeConstruction.pincode import GrPoset, reduced_chain_complex, pincode
 from QuantumCodeConstruction.utils import readsparsematrix
-from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
+from QuantumCodeAnalysis.QuantumCodeAnalysis import logicals  # , low_weight_logical
 
 
-TRANSITIONS = [readsparsematrix('BoundaryMaps/systematichp/systematic33_dim3_transpose_15_{}.sms'.format(j)).todense() for j in range(3)]
-# TRANSITIONS = [readsparsematrix('BoundaryMaps/535_6840_{}.npz'.format(j)).todense().transpose() for j in range(1, 4)]
+# TRANSITIONS = [readsparsematrix('BoundaryMaps/systematichp/systematic33_dim3_transpose_15_{}.sms'.format(j)).todense() for j in range(3)]
+TRANSITIONS = [readsparsematrix('BoundaryMaps/535_6840_{}.npz'.format(j)).todense().transpose() for j in range(1, 4)]
 POSET = GrPoset(TRANSITIONS, iscomplete=False)
+print('correct boundary map: {}'.format(POSET.check_boundary_map()))
 PCX, PCZ = pincode(POSET, 1, 2)
+print('correct boundary map: {}'.format(POSET.check_boundary_map()))
 (LX, _), (LZ, _) = logicals(PCX.todense(), PCZ.todense())
 print(len(LX))
 print(PCX.todense())

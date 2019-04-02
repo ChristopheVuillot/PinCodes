@@ -8,8 +8,8 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 if __name__ == "__main__":
     D = 6
-    X = int(D/3)
-    Z = D-X
+    X = int(D / 3)
+    Z = D - X
     CHECKS = 2
     BITS = 2
     BINARYMATRICESLIST = hp.systematicclassco(CHECKS, BITS)
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     for j in range(N):
         # the real index of the matrix is j+1 as we skip 0 in the matrix list
         print('Code systematic{}{}_dim{}_transpose_{}'.format(CHECKS, BITS, D, j + 1))
-        TRANSITIONS = hp.reapeatedhypergraphproduct(BINARYMATRICESLIST[j], D-1, transpose=True)
+        TRANSITIONS = hp.reapeatedhypergraphproduct(BINARYMATRICESLIST[j], D - 1, transpose=True)
         POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
         PCX, PCZ = pinco.pincode(POSETHP, X, Z)
         for k, bmap in enumerate(TRANSITIONS):

@@ -14,7 +14,7 @@ def writesparsematrix(matrix, filename, cardinal=2):
         with open(filename, 'w') as mfile:
             mfile.write('{} {} {}\n'.format(numrows, numcolumns, cardinal))
             for row, col in indices:
-                mfile.write('{} {} {}\n'.format(row+1, col+1, matrix[row, col]))
+                mfile.write('{} {} {}\n'.format(row + 1, col + 1, matrix[row, col]))
             mfile.write('0 0 0')
     elif ext == 'npz':
         save_npz(matrix.tocsc(), filename)
