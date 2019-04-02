@@ -39,14 +39,14 @@ for SEED in range(1, 11): #2**9-1):
     print('There are {} logical qubits'.format(LX.shape[0]))
 
     print('logical X')
-    LOWX, PERMX = low_weight_logical(GX, LZ, 4)
+    LOWX, PERMX = low_weight_logical(GX, LZ, 9)
     print('logical Z')
-    LOWZ, PERMZ = low_weight_logical(GZ, LX, 4)
+    LOWZ, PERMZ = low_weight_logical(GZ, LX, 9)
 
     print('There is a X-logical operator of weight {}'.format(LOWX.sum()))
     print('There is a Z-logical operator of weight {}'.format(LOWZ.sum()))
 
-    print('Check correct x log: {}'.format((np.dot(MZ[:, PERMX], LOWX) % 2)))
+    print('Check correct x log: {}'.format((np.dot(MZ[:, PERMX], LOWX) % 2).sum() == 0))
     print('Check correct z log: {}'.format((np.dot(MX[:, PERMZ], LOWZ) % 2).sum() == 0))
 
     # print('Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|')
