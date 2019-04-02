@@ -224,3 +224,16 @@ def reduced_chain_complex(poset, typ):
             if any(flag in typ_check for flag in reduced_q):
                 xmat[k, j] = 1
     return xmat, zmat, reduced_qubits
+
+
+def reduced_vec_to_flag_vec(poset, reduced_vec, reduced_qubits):
+    """construct a vector for the pin code
+    from a vector in the reduced chain complex.
+    """
+    flags = poset.get_flags()
+    nqubits = len(flags)
+    flag_vec = np.zeros((nqubits,), dtype='uint8')
+    for j in np.nonzero(reduced_vec)[0]:
+        for flag in reduced_qubits[j]:
+            flag_vec[flags.index(flag)] = 1
+    return flag_vec
