@@ -50,6 +50,23 @@ def distance_upper_bound(logicalx, checkx, logicalz, checkz, trials):
     return min(disx, disz)
 
 
+def distance_lower_bound(checks, logicals, lower_dist):
+    """Checks all weight lower_dist vector for if they
+    are logical operators, i.e. commutes with checks but
+    not with logicals.
+    """
+    _, n = checks.shape
+    candidate_logical = np.zeros((n,), dtype='uint8')
+    for indices in combinations(range(n), lower_dist):
+        for j in indices:
+            candidate_logical[j] = 1
+        if ((np.dot(checks, candidate_logical) % 2).sum() == 0) and (np.dot(logicals, candidate_logical) % 2).any():
+            return (False, candidate_logical)
+        for j in indices:
+            candidate_logical[j] = 0
+    return (True, None)
+
+
 def logicals(hmatx, hmatz):
     """Finds and returns logical operators
     from the import X and Z checks in hmatx and hmatz
