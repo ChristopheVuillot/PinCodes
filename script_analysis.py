@@ -1,22 +1,22 @@
 """Script to analyse codes
 """
-# from itertools import combinations
+from itertools import combinations
 import numpy as np
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
 from QuantumCodeConstruction.utils import readsparsematrix
 
 goodones = []
-for SEED in range(1, 11):  # 2**9-1):
+for SEED in range(1, 2):  # 2**9-1):
     # if SEED == 1097:
     #     continue
-    MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_X.sms'.format(SEED)).todense()
-    MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_Z.sms'.format(SEED)).todense()
+    # MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_X.sms'.format(SEED)).todense()
+    # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_Z.sms'.format(SEED)).todense()
     # MX = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_X.sms'.format(SEED)).todense()
     # MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
-    # MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
-    # MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
+    MZ = readsparsematrix('PCMatrices/color_code_535/3420_abcdcbadcbabadcbabadcbdcdcbX.sms').todense()
+    MX = readsparsematrix('PCMatrices/color_code_535/3420_abcdcbadcbabadcbabadcbdcdcbZ.sms').todense()
 
-    print('Properties of the code systematic33_dim3_transpose_{}:'.format(SEED))
+    print('Properties of the code 3420_abcdcbadcbabadcbabadcbdcdcb:{}'.format(' '))
     print('X-check matrix is {}x{}'.format(MX.shape[0], MX.shape[1]))
     print('Z-check matrix is {}x{}'.format(MZ.shape[0], MZ.shape[1]))
 
@@ -39,9 +39,9 @@ for SEED in range(1, 11):  # 2**9-1):
     print('There are {} logical qubits'.format(LX.shape[0]))
 
     print('logical X')
-    LOWX, PERMX = low_weight_logical(GX, LZ, 9)
+    LOWX, PERMX = low_weight_logical(GX, LZ, 1)
     print('logical Z')
-    LOWZ, PERMZ = low_weight_logical(GZ, LX, 9)
+    LOWZ, PERMZ = low_weight_logical(GZ, LX, 1)
 
     print('There is a X-logical operator of weight {}'.format(LOWX.sum()))
     print('There is a Z-logical operator of weight {}'.format(LOWZ.sum()))
@@ -49,27 +49,27 @@ for SEED in range(1, 11):  # 2**9-1):
     print('Check correct x log: {}'.format((np.dot(MZ[:, PERMX], LOWX) % 2).sum() == 0))
     print('Check correct z log: {}'.format((np.dot(MX[:, PERMZ], LOWZ) % 2).sum() == 0))
 
-    # print('Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|')
-    # K, N = LX.shape
-    # NSX, _ = MX.shape
-    # TRICOND = True
-    # wrong = []
-    # for ilog1, ilog2 in combinations(range(K), 2):
-    #     for istab in range(NSX):
-    #         TEST = np.multiply(LX[ilog1, :],
-    #                            np.multiply(LX[ilog2, :],
-    #                                        MX[istab, :])).sum() % 2 == 0
-    #         TRICOND = TRICOND and TEST
-    #         if not TEST:
-    #             wrong.append(((ilog1, ilog2), istab))
-    #         if wrong:
-    #             break
-    #     if wrong:
-    #         break
-    # print('Triorthogonal: {}'.format(TRICOND))
-    # if TRICOND:
-    #     goodones.append(SEED)
-    # print(len(wrong))
+    print('Checking tri-orthogonal condition |L_j wedge L_k wedge S_l|')
+    K, N = LX.shape
+    NSX, _ = MX.shape
+    TRICOND = True
+    wrong = []
+    for ilog1, ilog2 in combinations(range(K), 2):
+        for istab in range(NSX):
+            TEST = np.multiply(LX[ilog1, :],
+                               np.multiply(LX[ilog2, :],
+                                           MX[istab, :])).sum() % 2 == 0
+            TRICOND = TRICOND and TEST
+            if not TEST:
+                wrong.append(((ilog1, ilog2), istab))
+            if wrong:
+                break
+        if wrong:
+            break
+    print('Triorthogonal: {}'.format(TRICOND))
+    if TRICOND:
+        goodones.append(SEED)
+    print(len(wrong))
 # print(goodones)
     # print(LX[wrong[0][0][0], :])
     # print(LX[wrong[0][0][1], :])
