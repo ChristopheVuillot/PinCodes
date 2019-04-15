@@ -13,8 +13,10 @@ for SEED in range(1, 2):  # 2**9-1):
     # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_Z.sms'.format(SEED)).todense()
     # MX = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_X.sms'.format(SEED)).todense()
     # MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
-    MZ = readsparsematrix('PCMatrices/color_code_535/3420_abcdcbadcbabadcbabadcbdcdcbX.sms').todense()
-    MX = readsparsematrix('PCMatrices/color_code_535/3420_abcdcbadcbabadcbabadcbdcdcbZ.sms').todense()
+    MZ = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdX.sms').todense()
+    MX = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdZ.sms').todense()
+    # MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
+    # MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
 
     print('Properties of the code 3420_abcdcbadcbabadcbabadcbdcdcb:{}'.format(' '))
     print('X-check matrix is {}x{}'.format(MX.shape[0], MX.shape[1]))
