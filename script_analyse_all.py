@@ -11,11 +11,14 @@ from flinalg import invert_permutation
 
 
 PATHSYSTEMATICHP = 'PCMatrices/systematichp/'
+PATHNARROWCC = 'PCMatrices/narrowCC/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
 
+PATH = PATHNARROWCC
+
 RULE = re.compile(r'(.*)[XZ]\.sms')
-FILESET = {RULE.match(f).group(1) for f in os.listdir(PATHSYSTEMATICHP)}
+FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH)}
 
 NTRIAL = 10
 
@@ -24,8 +27,8 @@ for FILEPREFIX in FILESET:
     PROPDICT = {}
     print('Computing properties of code ' + FILEPREFIX + ':')
     print('Loading check matrices')
-    MX = readsparsematrix(PATHSYSTEMATICHP + FILEPREFIX + 'X.sms').todense()
-    MZ = readsparsematrix(PATHSYSTEMATICHP + FILEPREFIX + 'Z.sms').todense()
+    MX = readsparsematrix(PATH + FILEPREFIX + 'X.sms').todense()
+    MZ = readsparsematrix(PATH + FILEPREFIX + 'Z.sms').todense()
 
     NX, NQ = MX.shape
     NZ, _ = MZ.shape
