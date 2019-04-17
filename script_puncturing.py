@@ -6,15 +6,15 @@ import flinalg as fl
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, distance_lower_bound
 from QuantumCodeAnalysis.puncturing import puncture
 from QuantumCodeConstruction.utils import readsparsematrix
-from permutations import PERM2222244, K2222244
+# from permutations import PERM2222244, K2222244
 
 
-# MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_X.sms').todense()
-# MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_10_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/systematichp/systematic22_dim6_transpose_1_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/systematichp/systematic22_dim6_transpose_1_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC2_dim6_Z.sms').todense()
-MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_Z.sms').todense()
+# MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_X.sms').todense()
+# MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
 # MZ = readsparsematrix('PCMatrices/535_3420_ZCOS.sms').todense()
 
@@ -26,13 +26,12 @@ RZ, _ = MZ.shape
 # SX = fl.row_reduce_transform(MX)
 
 BESTGAMMA = 5
-for k in range(K2222244, K2222244 + 1):
+for k in range(100, 301):
     print('trying {} punctures:'.format(k), flush=True)
     for _ in range(1):
-        # PERM = np.random.permutation(NQ)
-        PERM = PERM2222244
+        PERM = np.random.permutation(NQ)
+        # PERM = PERM2222244
         K = k
-
 
         PUNCTMATX, PERMSTD = puncture(MX, PERM, K)
 

@@ -1,0 +1,13 @@
+trying 100 punctures:
+permutation: [1879 1320 2862 ... 2610 1870 2780]
+K=100
+[   0    1    2 ... 2877 2878 2879]
+MX.shape = (665, 2880)
+PUNCTMATX.shape = (665, 2780)
+PUNCTSTABX.shape = (565, 2780)
+PUNCTLOGX.shape = (100, 2780)
+PUNCTSTABZ.shape = (2303, 2780)
+REALLOGX len = 100
+PUNCTLOGZ len = 100
+Low weight logical of weight: 4
+gamma = 2.3985064889180725
