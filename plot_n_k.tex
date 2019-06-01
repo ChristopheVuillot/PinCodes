@@ -22,28 +22,40 @@
 
     \begin{axis}[
     	name=plot,
-    	title={$[[n,k]]$ for 2 HP of all $3\times 3$ binary matrices},
+    	title={$[[n,k]]$ for HP$^{\times2}$ of all $3\times 3$ binary matrices},
         ylabel=k,
         xlabel=n,
 %        xmode=log,
 %        ymode=log
-%        scaled ticks=false, 
-%        xtick distance=.1,
-%		ymin=-0.05,
-%		ymax=.45,
-%        xmin=0.1,
-%        xmax=1,
-%        ymajorgrids,
-%        yminorgrids,
-%        xmajorgrids,
-%        grid style={gray!25!white}
-        ]	
+	legend pos=north west,
+legend style={font=\scriptsize},
+legend entries={
+	{Pin codes},
+	{$1/2$ rate},
+	{$1/4$ rate},
+	{$1/8$ rate}
+},
+legend cell align=left
+]
+
+\addlegendimage{mark = +, only marks, color6}
+\addlegendimage{dashed}
+\addlegendimage{dotted}
+\addlegendimage{dashdotted}
+
 		\addplot[
 		color=color6,
 		mark=+,
 		only marks
 		]
 		table [x = n, y =k]{\sortednk};
+		\coordinate (a) at (axis cs:0,0);
+		\coordinate (b) at (axis cs:8000,4000);
+		\coordinate (c) at (axis cs:8000,2000);
+		\coordinate (d) at (axis cs:8000,1000);
 		\end{axis}
+		\draw[dashed] (a) -- (b);
+		\draw[dotted] (a) -- (c);
+		\draw[dashdotted] (a) -- (d);
 \end{tikzpicture}
 \end{document}
