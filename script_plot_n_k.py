@@ -3,8 +3,8 @@ import os
 
 
 PATHPARAM = 'CodeParameters/'
-NKFILE = 'list_n_k.txt'
-FILELIST = os.listdir(PATHPARAM)
+NKFILE = 'list_n_k_syst33.txt'
+FILELIST = [f for f in os.listdir(PATHPARAM) if 'systematic33' in f]
 
 print('Creating file: {}'.format(NKFILE))
 with open(NKFILE, 'w') as nkfile:

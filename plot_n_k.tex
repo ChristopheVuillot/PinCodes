@@ -1,0 +1,49 @@
+\documentclass{standalone}
+
+\usepackage{tikz,pgfplots, pgfplotstable}
+\usetikzlibrary{spy}
+\usepackage{braket}
+\usepackage{xcolor}
+
+\pgfplotsset{compat=1.7}
+
+\definecolor{color1}{RGB}{190,139,57}
+\definecolor{color2}{RGB}{124,115,203}
+\definecolor{color3}{RGB}{118,167,76}
+\definecolor{color4}{RGB}{196,90,156}
+\definecolor{color5}{RGB}{70,193,154}
+\definecolor{color6}{RGB}{199,85,81}
+%Merged_derdeder
+\pgfplotstablesort{\sortednk}{list_n_k_syst33.txt}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+    \begin{axis}[
+    	name=plot,
+    	title={$[[n,k]]$ for 2 HP of all $3\times 3$ binary matrices},
+        ylabel=k,
+        xlabel=n,
+%        xmode=log,
+%        ymode=log
+%        scaled ticks=false, 
+%        xtick distance=.1,
+%		ymin=-0.05,
+%		ymax=.45,
+%        xmin=0.1,
+%        xmax=1,
+%        ymajorgrids,
+%        yminorgrids,
+%        xmajorgrids,
+%        grid style={gray!25!white}
+        ]	
+		\addplot[
+		color=color6,
+		mark=+,
+		only marks
+		]
+		table [x = n, y =k]{\sortednk};
+		\end{axis}
+\end{tikzpicture}
+\end{document}
