@@ -1,0 +1,1 @@
+{"CSS": 1, "n": 32, "num X-checks": 16, "num Z-checks": 16, "X-checks weights": [4], "Z-checks weights": [4], "k": 0}

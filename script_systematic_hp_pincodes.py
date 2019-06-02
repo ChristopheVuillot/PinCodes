@@ -8,10 +8,10 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 if __name__ == "__main__":
     D = 2
-    X = 1 # int(D / 3)
+    X = 1  # int(D / 3)
     Z = D - X
     CHECKS = 3
-    BITS = 3
+    BITS = 4
     BINARYMATRICESLIST = hp.systematicclassco(CHECKS, BITS)
     N = len(BINARYMATRICESLIST)
     print('Generating Pin Codes with D={}, x={}, z={}, from all {}x{} binary matrices'.format(D, X, Z, CHECKS, BITS))
