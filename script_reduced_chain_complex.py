@@ -7,7 +7,7 @@ from QuantumCodeConstruction.utils import readsparsematrix
 from QuantumCodeAnalysis.QuantumCodeAnalysis import logicals  # , low_weight_logical
 
 
-TRANSITIONS = [readsparsematrix('BoundaryMaps/systematichp/systematic33_dim3_transpose_7_{}.sms'.format(j)).todense() for j in range(3)]
+TRANSITIONS = [readsparsematrix('BoundaryMaps/systematichp/systematic33_dim3_transpose_511_{}.sms'.format(j)).todense() for j in range(3)]
 # TRANSITIONS = [readsparsematrix('BoundaryMaps/535_3420_{}.sms'.format(j)).todense().transpose() for j in range(1, 4)]
 POSET = GrPoset(TRANSITIONS, iscomplete=False)
 print('correct boundary map: {}'.format(POSET.check_boundary_map()))
