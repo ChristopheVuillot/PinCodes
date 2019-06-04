@@ -75,8 +75,8 @@ def logicals(hmatx, hmatz):
     uintmatz = np.array(hmatz, dtype='uint8')
     kerx = fl.kernel(np.transpose(uintmatx))
     kerz = fl.kernel(np.transpose(uintmatz))
-    logicalxspace = fl.quotient_basis(kerz, uintmatx)
-    logicalzspace = fl.quotient_basis(kerx, uintmatz)
+    logicalxspace, _ = fl.quotient_basis(kerz, uintmatx)
+    logicalzspace, _ = fl.quotient_basis(kerx, uintmatz)
     return (logicalxspace, logicalzspace)
 
 
@@ -97,3 +97,20 @@ def logical_circuit(logicalx, k_orth):
             if coef != 0:
                 jgates.append((indices, coef))
     return gates
+
+
+def get_partner(l,G):
+    """find indices of rows of G which have odd overlap with l"""
+    p = np.dot(G,l)
+    p = np.mod(p,2)
+    return p.nonzero()[0]
+
+
+def gram_schmidt(v,A):
+    """Removes v from the row-span of A"""
+    w = np.dot(A,v)
+    w = np.mod(w,2)
+    B = A + np.outer(w,v)
+    B = np.mod(B,2)
+    return B
+

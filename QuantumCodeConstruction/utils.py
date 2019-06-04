@@ -32,7 +32,7 @@ def readsparsematrix(filename):
             toplist = topline.strip().split(' ')
             numrow = int(toplist[0])
             numcol = int(toplist[1])
-            matrix = lil_matrix((numrow, numcol), dtype='int')
+            matrix = lil_matrix((numrow, numcol), dtype='uint8')
             for line in matrixfile:
                 linelist = line.strip().split(' ')
                 row = int(linelist[0]) - 1
