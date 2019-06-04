@@ -15,12 +15,12 @@ PATHNARROWCC = 'PCMatrices/narrowCC/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
 
-PATH = PATHSYSTEMATICHP
+PATH = PATHNARROWCC
 
 RULE = re.compile(r'(.*)[XZ]\.sms')
-FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if 'dim2' in f}
+FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
 
-NTRIAL = 10
+NTRIAL = 30
 
 for FILEPREFIX in FILESET:
 

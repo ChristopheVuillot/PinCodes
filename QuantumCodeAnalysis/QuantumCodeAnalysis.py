@@ -67,6 +67,24 @@ def distance_lower_bound(checks, logicals, lower_dist):
     return (True, None)
 
 
+def list_low_log(checks, logicals, lower_dist):
+    """Returns all weight lower_dist vector if they
+    are logical operators, i.e. commutes with checks but
+    not with logicals.
+    """
+    _, n = checks.shape
+    list_log = []
+    candidate_logical = np.zeros((n,), dtype='uint8')
+    for indices in combinations(range(n), lower_dist):
+        for j in indices:
+            candidate_logical[j] = 1
+        if ((np.dot(checks, candidate_logical) % 2).sum() == 0) and (np.dot(logicals, candidate_logical) % 2).any():
+            list_log.append(np.copy(candidate_logical))
+        for j in indices:
+            candidate_logical[j] = 0
+    return list_log
+
+
 def logicals(hmatx, hmatz):
     """Finds and returns logical operators
     from the import X and Z checks in hmatx and hmatz
@@ -99,18 +117,17 @@ def logical_circuit(logicalx, k_orth):
     return gates
 
 
-def get_partner(l,G):
+def get_partner(l, G):
     """find indices of rows of G which have odd overlap with l"""
-    p = np.dot(G,l)
-    p = np.mod(p,2)
+    p = np.dot(G, l)
+    p = np.mod(p, 2)
     return p.nonzero()[0]
 
 
-def gram_schmidt(v,A):
+def gram_schmidt(u, v, A):
     """Removes v from the row-span of A"""
-    w = np.dot(A,v)
-    w = np.mod(w,2)
-    B = A + np.outer(w,v)
-    B = np.mod(B,2)
+    w = np.dot(A, u)
+    w = np.mod(w, 2)
+    B = A + np.outer(w, v)
+    B = np.mod(B, 2)
     return B
-

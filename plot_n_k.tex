@@ -14,72 +14,122 @@
 \definecolor{color5}{RGB}{70,193,154}
 \definecolor{color6}{RGB}{199,85,81}
 %Merged_derdeder
-\pgfplotstablesort{\sortednkthreethreedtwo}{list_n_k_syst33_dim2.txt}
-\pgfplotstablesort{\sortednkthreefourdtwo}{list_n_k_syst34_dim2.txt}
-\pgfplotstablesort{\sortednkthreethree}{list_n_k_syst33.txt}
+\pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkthreethreedtwo}{list_n_k_syst33_dim2.txt}
+\pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkthreefourdtwo}{list_n_k_syst34_dim2.txt}
+\pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkthreethree}{list_n_k_syst33.txt}
+\pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednknarrowCCtt}{list_n_k_narrowCC_33_dim6.txt}
+\pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednknarrowCC}{list_n_k_narrowCC_dim6.txt}
 
 \begin{document}
+
+\pgfplotsset{
+	% define the custom colormap
+	colormap={my colormap}{
+%		color=(color5),
+%		color=(color1),
+%		color=(color6),
+		color=(green!80!black),
+		color=(blue!50!white),
+		color=(orange!50!yellow)
+	},
+}
 
 \begin{tikzpicture}
 
     \begin{axis}[
     	name=plot,
-    	title={Pin codes from hypergraph products of small binary matrices},
+%    	title={Pin codes from hypergraph products of small binary matrices},
         ylabel=k,
         xlabel=n,
         xmode=log,
-        ymode=log,
-	legend pos=north west,
+        ymode=log,        
+%        colormap name=my colormap,
+%        colorbar sampled,
+%        colormap access=piecewise const, % add this
+%        colorbar,
+%        colorbar style={
+%        	title=d,
+%%        	ylabel=distance,
+%        	ytick={4,6,8}
+%        	},
+	legend pos=outer north east,
 legend style={font=\scriptsize},
 legend entries={
-	{$D=3$},
 	{$D=2$},
-%	{$D=2$},
+	{$D=3$},
+	{$D=6$},
+	{$d=4$},
+	{$d=6$},
+	{$d=8$},
+	{$d=16$},
+	%	{$D=2$},
 	{$1/2$ rate},
-%	{$1/4$ rate},
+	%	{$1/4$ rate},
 	{$1/8$ rate}
 },
 legend cell align=left
 ]
 
-\addlegendimage{mark = +, only marks, color6}
-\addlegendimage{mark = x, only marks, color5}
+\addlegendimage{mark = x, only marks}
+\addlegendimage{mark = +, only marks}
+\addlegendimage{mark = star, only marks}
 %\addlegendimage{mark = star, only marks, color4}
+\addlegendimage{green!80!black, thick}
+\addlegendimage{blue!50!white, thick}
+\addlegendimage{orange!50!yellow, thick}
+\addlegendimage{red, thick}
 \addlegendimage{dashed}
 \addlegendimage{dotted}
 %\addlegendimage{dashdotted}
+		
+\coordinate (a1) at (axis cs:20,10);
+\coordinate (a2) at (axis cs:8000,4000);
+\coordinate (b1) at (axis cs:20,5);
+\coordinate (b2) at (axis cs:8000,2000);
+\coordinate (c1) at (axis cs:20,2.5);
+\coordinate (c2) at (axis cs:8000,1000);
+\draw[dashed] (a1) -- (a2);
+%		\draw[dotted] (b1) -- (b2);
+\draw[dotted] (c1) -- (c2);
 
 		\addplot[
+		scatter,
 		color=color6,
 		mark=+,
 		only marks
 		]
-		table [x = n, y = k]{\sortednkthreethree};
+		table [x = n, y = k, scatter src = \thisrow{d}]{\sortednkthreethree};
 		
 		
 		\addplot[
+		scatter,
 		color=color5,
 		mark=x,
 		only marks
 		]
-		table [x = n, y = k]{\sortednkthreefourdtwo};
+		table [x = n, y = k, scatter src = \thisrow{d}]{\sortednkthreefourdtwo};
 		
 		\addplot[
+		scatter,
 		color=color5,
 		mark=x,
 		only marks
 		]
-		table [x = n, y = k]{\sortednkthreethreedtwo};
+		table [x = n, y = k, scatter src = \thisrow{d}]{\sortednkthreethreedtwo};
 		
-		\coordinate (a1) at (axis cs:20,10);
-		\coordinate (a2) at (axis cs:8000,4000);
-		\coordinate (b1) at (axis cs:20,5);
-		\coordinate (b2) at (axis cs:8000,2000);
-		\coordinate (c1) at (axis cs:20,2.5);
-		\coordinate (c2) at (axis cs:8000,1000);
+		\addplot[
+		color=red,
+		mark=star,
+		only marks
+		]
+		table [x = n, y = k]{\sortednknarrowCCtt};
+		\addplot[
+		color=orange!50!yellow,
+		mark=star,
+		only marks
+		]
+		table [x = n, y = k]{\sortednknarrowCC};
+
 		\end{axis}
-		\draw[dashed] (a1) -- (a2);
-%		\draw[dotted] (b1) -- (b2);
-		\draw[dotted] (c1) -- (c2);
 \end{tikzpicture}
 \end{document}
