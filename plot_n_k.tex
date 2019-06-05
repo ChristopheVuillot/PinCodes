@@ -16,6 +16,7 @@
 %Merged_derdeder
 \pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkthreethreedtwo}{list_n_k_syst33_dim2.txt}
 \pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkthreefourdtwo}{list_n_k_syst34_dim2.txt}
+\pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkfourthreedthree}{list_n_k_syst43_dim3.txt}
 \pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednkthreethree}{list_n_k_syst33.txt}
 \pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednknarrowCCtt}{list_n_k_narrowCC_33_dim6.txt}
 \pgfplotstablesort[sort key = d, sort cmp=int <]{\sortednknarrowCC}{list_n_k_narrowCC_dim6.txt}
@@ -91,7 +92,15 @@ legend cell align=left
 \draw[dashed] (a1) -- (a2);
 %		\draw[dotted] (b1) -- (b2);
 \draw[dotted] (c1) -- (c2);
-
+		
+		\addplot[
+		scatter,
+		color=color6,
+		mark=+,
+		only marks
+		]
+		table [x = n, y = k, scatter src = \thisrow{d}]{\sortednkfourthreedthree};
+		
 		\addplot[
 		scatter,
 		color=color6,

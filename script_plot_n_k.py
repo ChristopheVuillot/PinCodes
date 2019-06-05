@@ -3,8 +3,8 @@ import os
 
 
 PATHPARAM = 'CodeParameters/'
-NKFILE = 'list_n_k_narrowCC_dim6.txt'
-FILELIST = [f for f in os.listdir(PATHPARAM) if 'narrowCC' in f and 'dim6' in f]
+NKFILE = 'list_n_k_syst43_dim3.txt'
+FILELIST = [f for f in os.listdir(PATHPARAM) if 'systematic43' in f and 'dim3' in f]
 
 print('Creating file: {}'.format(NKFILE))
 with open(NKFILE, 'w') as nkfile:
