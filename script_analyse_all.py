@@ -11,11 +11,12 @@ from flinalg import invert_permutation
 
 
 PATHSYSTEMATICHP = 'PCMatrices/systematichp/'
+PATHSYSTEMATICHP43 = 'PCMatrices/systematichp43/'
 PATHNARROWCC = 'PCMatrices/narrowCC/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
 
-PATH = PATHNARROWCC
+PATH = PATHSYSTEMATICHP43
 
 RULE = re.compile(r'(.*)[XZ]\.sms')
 FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
@@ -97,19 +98,19 @@ for FILEPREFIX in FILESET:
     # if not DXMORETHAN2:
     #     PROPDICT['small X logical'] = list(W2X)
 
-    print('Checking triorthogonality')
-    TRICOND = True
-    for ilog1, ilog2 in combinations(range(K), 2):
-        for istab in range(NX):
-            TEST = np.multiply(LX[ilog1, :],
-                               np.multiply(LX[ilog2, :],
-                                           MX[istab, :])).sum() % 2 == 0
-            TRICOND = TRICOND and TEST
-            if not TRICOND:
-                break
-        if not TRICOND:
-            break
-    PROPDICT['triorthogonal'] = int(TRICOND)
+    # print('Checking triorthogonality')
+    # TRICOND = True
+    # for ilog1, ilog2 in combinations(range(K), 2):
+    #     for istab in range(NX):
+    #         TEST = np.multiply(LX[ilog1, :],
+    #                            np.multiply(LX[ilog2, :],
+    #                                        MX[istab, :])).sum() % 2 == 0
+    #         TRICOND = TRICOND and TEST
+    #         if not TRICOND:
+    #             break
+    #     if not TRICOND:
+    #         break
+    # PROPDICT['triorthogonal'] = int(TRICOND)
 
     with open('CodeParameters/' + FILEPREFIX + '.txt', 'w') as dictfile:
         print('writing properties to file')
