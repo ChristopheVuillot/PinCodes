@@ -97,6 +97,9 @@ for MX, MZ in CODES:
     UNPUNCTMATX = unpuncture(MX, UNLOGX)
     UNPUNCTMATZ = fl.kernel(np.hstack([UNPUNCTMATX.T, LEFTX.T]))
 
+    CSSCOND = np.mod(np.dot(UNPUNCTMATX, UNPUNCTMATZ.T), 2).sum() == 0
+    print(CSSCOND)
+
     # print(MX)
     # print(MZ)
     # print(UNPUNCTMATX)
@@ -108,9 +111,8 @@ for MX, MZ in CODES:
     UNPUNCTK = len(UNPUNCTLOGX)
     UNPUNCTLOGX = np.vstack(UNPUNCTLOGX)
 
-    # Weird mix of X and Z ???
-    UNPUNCTLOWWEIGHTLOGZ, _ = low_weight_logical(UNPUNCTKERX, UNPUNCTLOGZ, TRIALS)
-    UNPUNCTLOWWEIGHTLOGX, _ = low_weight_logical(UNPUNCTKERZ, UNPUNCTLOGX, TRIALS)
+    UNPUNCTLOWWEIGHTLOGZ, _ = low_weight_logical(UNPUNCTKERX, UNPUNCTLOGX, TRIALS)
+    UNPUNCTLOWWEIGHTLOGX, _ = low_weight_logical(UNPUNCTKERZ, UNPUNCTLOGZ, TRIALS)
     # print(UNPUNCTLOWWEIGHTLOGZ)
     UNPUNCTDZ = np.count_nonzero(UNPUNCTLOWWEIGHTLOGZ)
     UNPUNCTDX = np.count_nonzero(UNPUNCTLOWWEIGHTLOGX)
