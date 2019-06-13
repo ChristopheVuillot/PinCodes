@@ -11,7 +11,7 @@ from flinalg import invert_permutation
 
 
 PATHSYSTEMATICHP = 'PCMatrices/systematichp/'
-PATHSYSTEMATICHP43 = 'PCMatrices/systematichp43/'
+PATHSYSTEMATICHP43 = 'PCMatrices/systematichp43/toanalyse/'
 PATHNARROWCC = 'PCMatrices/narrowCC/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
