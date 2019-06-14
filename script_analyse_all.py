@@ -5,7 +5,7 @@ import os
 import re
 import json
 import numpy as np
-from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals  # , distance_lower_bound
+from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals, distance_lower_bound
 from QuantumCodeConstruction.utils import readsparsematrix
 from flinalg import invert_permutation
 
@@ -15,13 +15,15 @@ PATHSYSTEMATICHP43 = 'PCMatrices/systematichp43/toanalyse/'
 PATHNARROWCC = 'PCMatrices/narrowCC/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
+PATHPUNCTURED = 'PCMatrices/punctured/'
 
-PATH = PATHSYSTEMATICHP43
+PATH = PATHPUNCTURED
 
 RULE = re.compile(r'(.*)[XZ]\.sms')
-FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
+# FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
+FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH)}
 
-NTRIAL = 30
+NTRIAL = 200
 
 for FILEPREFIX in FILESET:
 
@@ -50,7 +52,7 @@ for FILEPREFIX in FILESET:
     PROPDICT['Z-checks weights'] = [int(w) for w in ZW]
 
     print('Computing logical operators')
-    (LX, _), (LZ, _) = logicals(MX, MZ)
+    LX, LZ = logicals(MX, MZ)
     if LX:
         LX = np.vstack(LX)
         LZ = np.vstack(LZ)
@@ -86,31 +88,31 @@ for FILEPREFIX in FILESET:
     PROPDICT['valid dx upper bound'] = int(DXCOND)
     PROPDICT['valid dz upper bound'] = int(DZCOND)
 
-    # print('checking distance larger than 2')
-    # DZMORETHAN2, W2Z = distance_lower_bound(MX, LX, 2)
-    # DXMORETHAN2, W2X = distance_lower_bound(MZ, LZ, 2)
+    print('checking distance larger than 3')
+    DZMORETHAN2, W2Z = distance_lower_bound(MX, LX, 3)
+    DXMORETHAN2, W2X = distance_lower_bound(MZ, LZ, 3)
 
-    # PROPDICT['dz > 2'] = int(DZMORETHAN2)
-    # if not DZMORETHAN2:
-    #     PROPDICT['small Z logical'] = list(W2Z)
+    PROPDICT['dz > 3'] = int(DZMORETHAN2)
+    if not DZMORETHAN2:
+        PROPDICT['small Z logical'] = list(W2Z)
 
-    # PROPDICT['dx > 2'] = int(DXMORETHAN2)
-    # if not DXMORETHAN2:
-    #     PROPDICT['small X logical'] = list(W2X)
+    PROPDICT['dx > 3'] = int(DXMORETHAN2)
+    if not DXMORETHAN2:
+        PROPDICT['small X logical'] = list(W2X)
 
-    # print('Checking triorthogonality')
-    # TRICOND = True
-    # for ilog1, ilog2 in combinations(range(K), 2):
-    #     for istab in range(NX):
-    #         TEST = np.multiply(LX[ilog1, :],
-    #                            np.multiply(LX[ilog2, :],
-    #                                        MX[istab, :])).sum() % 2 == 0
-    #         TRICOND = TRICOND and TEST
-    #         if not TRICOND:
-    #             break
-    #     if not TRICOND:
-    #         break
-    # PROPDICT['triorthogonal'] = int(TRICOND)
+    print('Checking triorthogonality')
+    TRICOND = True
+    for ilog1, ilog2 in combinations(range(K), 2):
+        for istab in range(NX):
+            TEST = np.multiply(LX[ilog1, :],
+                               np.multiply(LX[ilog2, :],
+                                           MX[istab, :])).sum() % 2 == 0
+            TRICOND = TRICOND and TEST
+            if not TRICOND:
+                break
+        if not TRICOND:
+            break
+    PROPDICT['triorthogonal'] = int(TRICOND)
 
     with open('CodeParameters/' + FILEPREFIX + '.txt', 'w') as dictfile:
         print('writing properties to file')
