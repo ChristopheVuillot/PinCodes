@@ -4,7 +4,7 @@
 # import gc
 import numpy as np
 import flinalg as fl
-from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals, get_partner, gram_schmidt
+from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals, get_partner, gram_schmidt, list_low_log
 from QuantumCodeAnalysis.puncturing import puncture
 from QuantumCodeAnalysis.unpuncturing import unpuncture
 from QuantumCodeConstruction.utils import readsparsematrix, writesparsematrix
@@ -57,72 +57,77 @@ MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_4422244_dim6_Z.sms').todense
 PUNCTMATX, PERMSTD = puncture(MX, PERM, KINI)
 PUNCTSTABX = np.array(PUNCTMATX[KINI:, :], dtype='uint8')
 PUNCTLOGX = np.array(PUNCTMATX[:KINI, :], dtype='uint8')
+print(np.mod(np.dot(PUNCTLOGX, PUNCTLOGX.T), 8))
 PUNCTSTABZ = fl.kernel(PUNCTMATX.transpose())
+PUNCTK, PUNCTNQ = PUNCTLOGX.shape
+
+# writesparsematrix(PUNCTSTABX, 'PCMatrices/punctured/{}_{}_{}_{}_X.sms'.format('3322233', PUNCTNQ, PUNCTK, 4))
+# writesparsematrix(PUNCTSTABZ, 'PCMatrices/punctured/{}_{}_{}_{}_Z.sms'.format('3322233', PUNCTNQ, PUNCTK, 4))
+
+CODES = [(PUNCTSTABX, PUNCTSTABZ, PUNCTLOGX, 3, 'extensivetest_4422244')]
 
 
-CODES = [(PUNCTSTABX, PUNCTSTABZ, '4422244')]
-
-
-TRIALS = 150
+TRIALS = 50
 CONTINUE = True
 
-for MX, MZ, FILENAME in CODES:
+for MX, MZ, LOGXINIT, DINIT, FILENAME in CODES:
     while CONTINUE:
         RX, NQ = MX.shape
         RZ, _ = MZ.shape
 
         KERX = fl.kernel(MX.T)
-        LOGX, LOGZ = logicals(MX, MZ)
-        LOGX = np.vstack(LOGX)
-        LOGXINIT = np.copy(LOGX)
+        # LOGX, LOGZ = logicals(MX, MZ)
+        # LOGX = np.vstack(LOGX)
+        LOGX = np.copy(LOGXINIT)
 
         K = LOGX.shape[0]
 
         print(NQ, LOGX.shape[0], RZ, RX, K)
 
-        LOWZS = []
+        # LOWZS = []
 
         LOWWEIGHTLOGZ, perm = low_weight_logical(KERX, LOGX, TRIALS)
-        invperm = fl.invert_permutation(perm)
-        LOWWEIGHTLOGZ = LOWWEIGHTLOGZ[invperm]
-        LOWZS.append(LOWWEIGHTLOGZ)
+        # invperm = fl.invert_permutation(perm)
+        # LOWWEIGHTLOGZ = LOWWEIGHTLOGZ[invperm]
+        # LOWZS.append(LOWWEIGHTLOGZ)
         D = np.count_nonzero(LOWWEIGHTLOGZ)
         print(D)
-        PARTNERIND = get_partner(LOWWEIGHTLOGZ, LOGX)[0]
-        PARTNER = LOGX[PARTNERIND, :]
-        print(PARTNER)
-        LOGX = gram_schmidt(LOWWEIGHTLOGZ, PARTNER, LOGX)
-#        LOGX = np.delete(LOGX,(PARTNERIND),axis=0)
-        print(PARTNER)
-        UNLOGX = [PARTNER]
+        # PARTNERIND = get_partner(LOWWEIGHTLOGZ, LOGX)[0]
+        # PARTNER = LOGX[PARTNERIND, :]
+        # print(PARTNER)
+        # LOGX = gram_schmidt(LOWWEIGHTLOGZ, PARTNER, LOGX)
+        # #  LOGX = np.delete(LOGX,(PARTNERIND),axis=0)
+        # print(PARTNER)
+        # UNLOGX = [PARTNER]
 
-        print('n = {}, k = {}'.format(NQ, LOGX.shape[0]))
-        print('D: {}'.format(D))
-        i = 0
-        while True:
-            i += 1
-            print('found {}'.format(i))
-            LOWWEIGHTLOGZ, perm = low_weight_logical(KERX, LOGX, TRIALS)
-            invperm = fl.invert_permutation(perm)
-            LOWWEIGHTLOGZ = LOWWEIGHTLOGZ[invperm]
-            LOWZS.append(LOWWEIGHTLOGZ)
-            d = np.count_nonzero(LOWWEIGHTLOGZ)
-            print(d)
-            if d > D:
-                break
-            PARTNERS = get_partner(LOWWEIGHTLOGZ, LOGX)
-            if len(PARTNERS):
-                PARTNERIND = PARTNERS[0]
-                PARTNER = LOGX[PARTNERIND, :][:]
-                LOGX = gram_schmidt(LOWWEIGHTLOGZ, PARTNER, LOGX)
-#            LOGX = np.delete(LOGX,(PARTNERIND),axis=0)
-                UNLOGX += [PARTNER]
-                print(d)
-                print(PARTNERIND)
-#            print(UNLOGX)
-            else:
-                break
+        # print('n = {}, k = {}'.format(NQ, LOGX.shape[0]))
+        # print('D: {}'.format(D))
+        # i = 0
+        # while True:
+        #     i += 1
+        #     print('found {}'.format(i))
+        #     LOWWEIGHTLOGZ, perm = low_weight_logical(KERX, LOGX, TRIALS)
+        #     invperm = fl.invert_permutation(perm)
+        #     LOWWEIGHTLOGZ = LOWWEIGHTLOGZ[invperm]
+        #     LOWZS.append(LOWWEIGHTLOGZ)
+        #     d = np.count_nonzero(LOWWEIGHTLOGZ)
+        #     print(d)
+        #     if d > D:
+        #         break
+        #     PARTNERS = get_partner(LOWWEIGHTLOGZ, LOGX)
+        #     if len(PARTNERS):
+        #         PARTNERIND = PARTNERS[0]
+        #         PARTNER = LOGX[PARTNERIND, :][:]
+        #         LOGX = gram_schmidt(LOWWEIGHTLOGZ, PARTNER, LOGX)
+        # #      LOGX = np.delete(LOGX,(PARTNERIND),axis=0)
+        #         UNLOGX += [PARTNER]
+        #         print(d)
+        #         print(PARTNERIND)
+        # #     print(UNLOGX)
+        #     else:
+        #         break
 
+        LOWZS = list_low_log(MX, LOGXINIT, DINIT)
         LOWZS = np.vstack(LOWZS)
         UNLOGX, LEFTLOGX = select_unlogx(LOWZS, LOGXINIT)
 
@@ -164,5 +169,8 @@ for MX, MZ, FILENAME in CODES:
         else:
             MX = UNPUNCTMATX
             MZ = UNPUNCTMATZ
+            LOGXINIT = LEFTX
+            print(np.mod(np.dot(LEFTX, LEFTX.T), 8))
     writesparsematrix(UNPUNCTMATX, 'PCMatrices/punctured/{}_{}_{}_{}_X.sms'.format(FILENAME, UNPUNCTNQ, UNPUNCTK, UNPUNCTDZ))
     writesparsematrix(UNPUNCTMATZ, 'PCMatrices/punctured/{}_{}_{}_{}_Z.sms'.format(FILENAME, UNPUNCTNQ, UNPUNCTK, UNPUNCTDZ))
+    writesparsematrix(LEFTX, 'PCMatrices/punctured/{}_{}_{}_{}_LOGX.sms'.format(FILENAME, UNPUNCTNQ, UNPUNCTK, UNPUNCTDZ))
