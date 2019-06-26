@@ -9,7 +9,7 @@ from QuantumCodeAnalysis.puncturing import puncture
 from QuantumCodeAnalysis.unpuncturing import unpuncture
 from QuantumCodeConstruction.utils import readsparsematrix, writesparsematrix
 # from QuantumCodeConstruction.hypergraphproduct import hypergraphproduct
-from permutations import PERM4422244, K4422244
+from permutations import PERM2222244, K2222244
 
 
 def select_unlogx(lowzs, logx):
@@ -36,13 +36,13 @@ def select_unlogx(lowzs, logx):
     return np.vstack(unlogx), np.vstack(leftlogx)
 
 
-PERM = PERM4422244
-KINI = K4422244
+PERM = PERM2222244
+KINI = K2222244
 
 # MX = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_7_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_7_Z.sms').todense()
-MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_4422244_dim6_X.sms').todense()
-MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_4422244_dim6_Z.sms').todense()
+MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_X.sms').todense()
+MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_X.sms').todense()
 # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2222244_dim6_Z.sms').todense()
 # MX = readsparsematrix('PCMatrices/535_3420_XCOS.sms').todense()
@@ -64,7 +64,7 @@ PUNCTK, PUNCTNQ = PUNCTLOGX.shape
 # writesparsematrix(PUNCTSTABX, 'PCMatrices/punctured/{}_{}_{}_{}_X.sms'.format('3322233', PUNCTNQ, PUNCTK, 4))
 # writesparsematrix(PUNCTSTABZ, 'PCMatrices/punctured/{}_{}_{}_{}_Z.sms'.format('3322233', PUNCTNQ, PUNCTK, 4))
 
-CODES = [(PUNCTSTABX, PUNCTSTABZ, PUNCTLOGX, 3, 'extensivetest_4422244')]
+CODES = [(PUNCTSTABX, PUNCTSTABZ, PUNCTLOGX, 4, 'extensivetest_2222244')]
 
 
 TRIALS = 50

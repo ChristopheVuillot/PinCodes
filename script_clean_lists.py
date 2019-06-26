@@ -8,5 +8,5 @@ for FILE in LISTSTOCLEAN:
         lines = filetoclean.readlines()
         uniquelines = set(lines[1:])
     with open(FILE, 'w') as filecleaned:
-        filecleaned.write('n k d\n')
+        filecleaned.write('n k d wx wz\n')
         filecleaned.writelines(list(uniquelines))

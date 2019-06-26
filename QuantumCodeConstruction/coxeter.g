@@ -119,4 +119,4 @@ script := function(SchlaefliS, r, x, z, name)
   Create_and_write_to_file_code(G, ggen, x, z, name);
 end;
 
-script([4,4,4,4], 2, 1, 2, "coxeter44442");
+script([4,4,4,4], 4, 1, 2, "weirdcoxeter/coxeter44444");

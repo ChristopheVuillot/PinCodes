@@ -13,11 +13,12 @@ from flinalg import invert_permutation
 PATHSYSTEMATICHP = 'PCMatrices/systematichp/'
 PATHSYSTEMATICHP43 = 'PCMatrices/systematichp43/toanalyse/'
 PATHNARROWCC = 'PCMatrices/narrowCC/'
+PATHWEIRD = 'PCMatrices/weirdcoxeter/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
 PATHPUNCTURED = 'PCMatrices/punctured/'
 
-PATH = PATHPUNCTURED
+PATH = PATHWEIRD
 
 RULE = re.compile(r'(.*)[XZ]\.sms')
 # FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
@@ -88,17 +89,17 @@ for FILEPREFIX in FILESET:
     PROPDICT['valid dx upper bound'] = int(DXCOND)
     PROPDICT['valid dz upper bound'] = int(DZCOND)
 
-    print('checking distance larger than 3')
-    DZMORETHAN2, W2Z = distance_lower_bound(MX, LX, 3)
-    DXMORETHAN2, W2X = distance_lower_bound(MZ, LZ, 3)
+    # print('checking distance larger than 3')
+    # DZMORETHAN2, W2Z = distance_lower_bound(MX, LX, 3)
+    # DXMORETHAN2, W2X = distance_lower_bound(MZ, LZ, 3)
 
-    PROPDICT['dz > 3'] = int(DZMORETHAN2)
-    if not DZMORETHAN2:
-        PROPDICT['small Z logical'] = list(W2Z)
+    # PROPDICT['dz > 3'] = int(DZMORETHAN2)
+    # if not DZMORETHAN2:
+    #     PROPDICT['small Z logical'] = list(W2Z)
 
-    PROPDICT['dx > 3'] = int(DXMORETHAN2)
-    if not DXMORETHAN2:
-        PROPDICT['small X logical'] = list(W2X)
+    # PROPDICT['dx > 3'] = int(DXMORETHAN2)
+    # if not DXMORETHAN2:
+    #     PROPDICT['small X logical'] = list(W2X)
 
     print('Checking triorthogonality')
     TRICOND = True
