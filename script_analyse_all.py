@@ -22,10 +22,10 @@ PATHPUNCTURED = 'PCMatrices/punctured/'
 PATH = PATHCCZPINCO
 
 RULE = re.compile(r'(.*)[XZ]\.sms')
-# FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
-FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH)}
+FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if 'dim8' in f}
+# FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH)}
 
-NTRIAL = 200
+NTRIAL = 80
 
 for FILEPREFIX in FILESET:
 
@@ -102,19 +102,19 @@ for FILEPREFIX in FILESET:
     # if not DXMORETHAN2:
     #     PROPDICT['small X logical'] = list(W2X)
 
-    print('Checking triorthogonality')
-    TRICOND = True
-    for ilog1, ilog2 in combinations(range(K), 2):
-        for istab in range(NX):
-            TEST = np.multiply(LX[ilog1, :],
-                               np.multiply(LX[ilog2, :],
-                                           MX[istab, :])).sum() % 2 == 0
-            TRICOND = TRICOND and TEST
-            if not TRICOND:
-                break
-        if not TRICOND:
-            break
-    PROPDICT['triorthogonal'] = int(TRICOND)
+    # print('Checking triorthogonality')
+    # TRICOND = True
+    # for ilog1, ilog2 in combinations(range(K), 2):
+    #     for istab in range(NX):
+    #         TEST = np.multiply(LX[ilog1, :],
+    #                            np.multiply(LX[ilog2, :],
+    #                                        MX[istab, :])).sum() % 2 == 0
+    #         TRICOND = TRICOND and TEST
+    #         if not TRICOND:
+    #             break
+    #     if not TRICOND:
+    #         break
+    # PROPDICT['triorthogonal'] = int(TRICOND)
 
     with open('CodeParameters/' + FILEPREFIX + '.txt', 'w') as dictfile:
         print('writing properties to file')

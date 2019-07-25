@@ -13,4 +13,3 @@ for FILE in FILELIST:
             trio = jsondict['triorthogonal']
             if trio and k > 1:
                 print('Triorthogonal! file:{} -> {} {} {}\n'.format(FILE, n, k, jsondict["dz upper bound"]))
-
