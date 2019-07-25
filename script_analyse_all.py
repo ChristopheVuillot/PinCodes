@@ -14,11 +14,12 @@ PATHSYSTEMATICHP = 'PCMatrices/systematichp/'
 PATHSYSTEMATICHP43 = 'PCMatrices/systematichp43/toanalyse/'
 PATHNARROWCC = 'PCMatrices/narrowCC/'
 PATHWEIRD = 'PCMatrices/weirdcoxeter/'
+PATHCCZPINCO = 'PCMatrices/notgauge/'
 PATH535 = 'PCMatrices/color_code_535/'
 PATH353 = 'PCMatrices/color_code_353/'
 PATHPUNCTURED = 'PCMatrices/punctured/'
 
-PATH = PATHWEIRD
+PATH = PATHCCZPINCO
 
 RULE = re.compile(r'(.*)[XZ]\.sms')
 # FILESET = {RULE.match(f).group(1) for f in os.listdir(PATH) if '(33)' in f}
