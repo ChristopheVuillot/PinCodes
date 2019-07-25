@@ -4,6 +4,7 @@
 from itertools import combinations, product
 import scipy.sparse as sp
 import numpy as np
+import flinalg as fl
 
 
 class GrPoset:
@@ -237,3 +238,32 @@ def reduced_vec_to_flag_vec(poset, reduced_vec, reduced_qubits):
         for flag in reduced_qubits[j]:
             flag_vec[flags.index(flag)] = 1
     return flag_vec
+
+
+def cczpincode(poset, lxind):
+    """create the parity matrices for X and Z checks
+    defined by the poset and with xind and zind length
+    pinned sets
+    """
+    poset.makecomplete()
+    # print(poset.transitions)
+    # assert (xind + zind) < poset.length
+    flags = poset.get_flags()
+    # print(flags)
+    lxpsets = sum([ps for ps in poset.get_all_pinned_sets(lxind).values()], [])
+    xpsets = sum([ps for ps in poset.get_all_pinned_sets(lxind - 1).values()], [])
+    nqubit = len(flags)
+    nxchecks = len(xpsets)
+    nlxchecks = len(lxpsets)
+    matx = sp.dok_matrix((nxchecks, nqubit), dtype='int')
+    matlx = sp.dok_matrix((nlxchecks, nqubit), dtype='int')
+    for checkindex, pset in enumerate(xpsets):
+        for flag in pset:
+            matx[checkindex, flags.index(flag)] = 1
+    uintmatx = np.array(matx.todense(), dtype='uint8')
+    for checkindex, pset in enumerate(lxpsets):
+        for flag in pset:
+            matlx[checkindex, flags.index(flag)] = 1
+    uintmatlx = np.array(matlx.todense(), dtype='uint8')
+    kerlx = fl.kernel(np.transpose(uintmatlx))
+    return (uintmatx, kerlx)
