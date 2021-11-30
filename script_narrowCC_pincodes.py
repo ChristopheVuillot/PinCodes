@@ -6,18 +6,15 @@ from QuantumCodeConstruction.utils import writesparsematrix
 
 
 if __name__ == "__main__":
-    D = 6
-    X = 3  # int(D / 3)
+    D = 3
+    X = 1  # int(D / 3)
     Z = D - X
     SIZE = 2
     # print('Generating narrow Pin Code with D={}, x={}, z={}, q={}'.format(D, X, Z, SIZE))
     # TRANSITIONS = [np.ones((SIZE, SIZE), dtype='uint8') for _ in range(D)]
-    print('Narrow pin code 4-2-2-2-2-2-4, (3,3)')
+    print('Narrow pin code 2-2-2-4, (1,2)')
     # M44 = np.array([[1, 1, 0, 0], [1, 1, 0, 0], [0, 0, 1, 1], [0, 0, 1, 1]], dtype='uint8')
-    TRANSITIONS = [np.ones((4, 2), dtype='uint8'),
-                   np.ones((2, 2), dtype='uint8'),
-                   np.ones((2, 2), dtype='uint8'),
-                   np.ones((2, 2), dtype='uint8'),
+    TRANSITIONS = [np.ones((2, 2), dtype='uint8'),
                    np.ones((2, 2), dtype='uint8'),
                    np.ones((2, 4), dtype='uint8')]
     POSETHP = pinco.GrPoset(TRANSITIONS, iscomplete=False)
@@ -38,5 +35,5 @@ if __name__ == "__main__":
     CSSCOND = (np.dot(PCX.todense(), PCZ.transpose().todense()) % 2).sum() == 0
     print('This is a valid CSS code: {}'.format(CSSCOND))
 
-    writesparsematrix(PCX, 'PCMatrices/narrowCC/narrowCC_4222224_(33)_dim{}_X.sms'.format(D))
-    writesparsematrix(PCZ, 'PCMatrices/narrowCC/narrowCC_4222224_(33)_dim{}_Z.sms'.format(D))
+    writesparsematrix(PCX, 'PCMatrices/narrowCC/narrowCC_2224_(12)_dim{}_X.sms'.format(D))
+    writesparsematrix(PCZ, 'PCMatrices/narrowCC/narrowCC_2224_(12)_dim{}_Z.sms'.format(D))

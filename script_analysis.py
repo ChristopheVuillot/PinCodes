@@ -1,10 +1,12 @@
 """Script to analyse codes
 """
+import sys
 from itertools import combinations
 import numpy as np
 from QuantumCodeAnalysis.QuantumCodeAnalysis import low_weight_logical, logicals
 from QuantumCodeConstruction.utils import readsparsematrix
 
+np.set_printoptions(threshold=sys.maxsize)
 goodones = []
 for SEED in range(1, 2):  # 2**9-1):
     # if SEED == 1097:
@@ -13,22 +15,26 @@ for SEED in range(1, 2):  # 2**9-1):
     # MZ = readsparsematrix('PCMatrices/systematichp/systematic33_dim3_transpose_{}_Z.sms'.format(SEED)).todense()
     # MX = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_X.sms'.format(SEED)).todense()
     # MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
-    MZ = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdX.sms').todense()
-    MX = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdZ.sms').todense()
+    # MZ = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdX.sms').todense()
+    # MX = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdZ.sms').todense()
+    MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2224_(12)_dim3_X.sms').todense()
+    MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2224_(12)_dim3_Z.sms').todense()
     # MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
     # MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
 
-    print('Properties of the code 3420_abcdcbadcbabadcbabadcbdcdcb:{}'.format(' '))
+    print('Properties of the code narrowCC_2224_(12)_dim3:{}'.format(' '))
     print('X-check matrix is {}x{}'.format(MX.shape[0], MX.shape[1]))
+    print(MX)
     print('Z-check matrix is {}x{}'.format(MZ.shape[0], MZ.shape[1]))
+    print(MZ)
 
     XW = {MX[j, :].sum() for j in range(MX.shape[0])}
     ZW = {MZ[j, :].sum() for j in range(MZ.shape[0])}
 
-    print('X-checks have weigths: {}'.format(XW))
-    print('Z-checks have weigths: {}'.format(ZW))
+    print('X-checks have weights: {}'.format(XW))
+    print('Z-checks have weights: {}'.format(ZW))
 
-    (LX, _), (LZ, _) = logicals(MX, MZ)
+    LX, LZ = logicals(MX, MZ)
     if LX:
         LX = np.vstack(LX)
         LZ = np.vstack(LZ)
@@ -41,12 +47,16 @@ for SEED in range(1, 2):  # 2**9-1):
     print('There are {} logical qubits'.format(LX.shape[0]))
 
     print('logical X')
+    print(LX)
     LOWX, PERMX = low_weight_logical(GX, LZ, 1)
     print('logical Z')
+    print(LZ)
     LOWZ, PERMZ = low_weight_logical(GZ, LX, 1)
 
     print('There is a X-logical operator of weight {}'.format(LOWX.sum()))
+    print(LOWX)
     print('There is a Z-logical operator of weight {}'.format(LOWZ.sum()))
+    print(LOWZ)
 
     print('Check correct x log: {}'.format((np.dot(MZ[:, PERMX], LOWX) % 2).sum() == 0))
     print('Check correct z log: {}'.format((np.dot(MX[:, PERMZ], LOWZ) % 2).sum() == 0))
