@@ -27,6 +27,10 @@
 *.a
 *.lib
 
+# Latex compilation
+*.aux
+*synctex.gz
+
 # Executables
 *.exe
 *.out
