@@ -17,16 +17,18 @@ for SEED in range(1, 2):  # 2**9-1):
     # MZ = readsparsematrix('PCMatrices/randomhp/randomhp_swap_{}_Z.sms'.format(SEED)).todense()
     # MZ = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdX.sms').todense()
     # MX = readsparsematrix('PCMatrices/color_code_535/6840_abcbadcbabadcbabadcbadcbabdcbabdZ.sms').todense()
-    MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2224_(12)_dim3_X.sms').todense()
-    MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2224_(12)_dim3_Z.sms').todense()
+    # MZ = readsparsematrix('PCMatrices/narrowCC/narrowCC_2224_(12)_dim3_X.sms').todense()
+    # MX = readsparsematrix('PCMatrices/narrowCC/narrowCC_2224_(12)_dim3_Z.sms').todense()
+    MZ = readsparsematrix('PCMatrices/great_stellatedX.sms').todense()
+    MX = readsparsematrix('PCMatrices/great_stellatedZ.sms').todense()
     # MZ = readsparsematrix('PCMatrices/535_6840_Z.sms').todense()
     # MX = readsparsematrix('PCMatrices/535_6840_X.sms').todense()
 
-    print('Properties of the code narrowCC_2224_(12)_dim3:{}'.format(' '))
+    print('Properties of the code great_stellated:{}'.format(' '))
     print('X-check matrix is {}x{}'.format(MX.shape[0], MX.shape[1]))
-    print(MX)
+    # print(MX)
     print('Z-check matrix is {}x{}'.format(MZ.shape[0], MZ.shape[1]))
-    print(MZ)
+    # print(MZ)
 
     XW = {MX[j, :].sum() for j in range(MX.shape[0])}
     ZW = {MZ[j, :].sum() for j in range(MZ.shape[0])}
@@ -47,11 +49,11 @@ for SEED in range(1, 2):  # 2**9-1):
     print('There are {} logical qubits'.format(LX.shape[0]))
 
     print('logical X')
-    print(LX)
-    LOWX, PERMX = low_weight_logical(GX, LZ, 1)
+    # print(LX)
+    LOWX, PERMX = low_weight_logical(GX, LZ, 500)
     print('logical Z')
-    print(LZ)
-    LOWZ, PERMZ = low_weight_logical(GZ, LX, 1)
+    # print(LZ)
+    LOWZ, PERMZ = low_weight_logical(GZ, LX, 500)
 
     print('There is a X-logical operator of weight {}'.format(LOWX.sum()))
     print(LOWX)

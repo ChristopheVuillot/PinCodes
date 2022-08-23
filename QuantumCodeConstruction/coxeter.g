@@ -61,6 +61,19 @@ Petri_compact_fromMatrix := function(C,r)
 end;
 
 
+Great_stellated := function()
+    #Given the Coxeter matrix C and a number r, returns the incidence polytope of type S
+    #with Petri polygon - translation t^r added to the relations
+    local G,Ggens,i,t,D,F,gensF,j,rel;
+    D := 3;
+    F := FreeGroup(D);
+    gensF := GeneratorsOfGroup(F);
+    rel := [gensF[1]*gensF[1], gensF[2]*gensF[2], gensF[3]*gensF[3], (gensF[1]*gensF[2])^5, (gensF[1]*gensF[2])^5, (gensF[1]*gensF[3])^2, (gensF[2]*gensF[3])^5, (gensF[1]*gensF[2]*gensF[3]*gensF[2])^3];
+    G:= F/rel;
+    return G;
+end;
+
+
 Create_and_write_to_file_code := function(G, ggen, x, z, name)
   #Create a quantum codes from Coxeter group G with the group elements as qubits
   #the (n-x)-generators cosets as x-checks and (n-z)-generators cosets as z-checks
@@ -119,4 +132,12 @@ script := function(SchlaefliS, r, x, z, name)
   Create_and_write_to_file_code(G, ggen, x, z, name);
 end;
 
-script([4,4,4,4], 4, 1, 2, "weirdcoxeter/coxeter44444");
+script2 := function()
+  local G, ggen;
+  G := Great_stellated();
+  ggen := GeneratorsOfGroup(G);
+  Create_and_write_to_file_code(G, ggen, 1, 1, "great_stellated");
+end;
+
+#script([4,4,4,4], 4, 1, 2, "weirdcoxeter/coxeter44444");
+script2();
